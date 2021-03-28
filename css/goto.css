@@ -1,0 +1,45 @@
+.rte-content-only .rte-go-to {
+    padding: 13px 38px;
+    background: #F0EFED url(../img/go-to.png) 15px 17px no-repeat;
+    margin-right: -3px;
+    color: #f36633;
+}
+
+.rte-go-to, .rte-close, .rte-top {
+    position: relative;
+    left: 0;
+}
+
+.rte-fixed-element {
+    float: right;
+    padding: 0px 20px;
+    position: fixed;
+    right: 2%;
+    margin-top: 24px;
+    top: 100px;
+    z-index: 999;
+}
+
+.richText .component-content {
+    overflow: hidden;
+}
+
+
+.rte-subheading-list {
+    position: absolute;
+    background-color: #F0EFED;
+    width: 216px;
+    margin-top: 35px;
+}
+
+.rte-content-only ul {
+    margin-bottom: 26px;
+}
+
+.rte-subheading-list ul {
+    list-style-type: none;
+    min-height: 100px;
+    max-height: 150px;
+    overflow-y: scroll;
+    padding: 5px 5px;
+}

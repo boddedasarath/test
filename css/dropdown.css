@@ -1,0 +1,99 @@
+/*********Language toggle*********/
+.dropdown-be{
+	margin:0 auto;
+	width:960px;
+	position:relative;
+}
+.dropdown-be .component-content .paragraphSystem{
+	position:absolute;
+	top:-30px;
+	width:131px;
+	right:50px;
+}
+.dropdown-up , .dropdown-selectbox{
+	margin:0px;
+}
+.dropdown-up p, .dropdown-selectbox p{
+	margin:0px 8px;
+	cursor:pointer;
+}
+.dropdown-up p{
+	color: #15717d;
+    font-size: 14px;
+    height: 24px;
+    padding-top: 5px;
+    background: url("../img/dwn_arrow.png") no-repeat right 10px;
+	padding-bottom:5px;
+}
+.dropdown-selectbox{
+	background:#FFFFFF;
+	position:relative;
+	z-index:1;
+	display:none;
+}
+.dropdown-selectbox p{
+	font-size: 14px;
+	color:#72635d;
+	padding:14px 0 10px;
+	border-top:1px solid #eff0eb;
+}
+.dropdown-selectbox p strong{
+	background:url("../img/download.png") no-repeat;
+	padding-left:20px;	
+}
+.dropdownToggle{
+	background:#FFFFFF;
+}
+.dropdownToggle.dropdown-up p{
+	background: url("../img/up_arrow.png") no-repeat right 10px;
+}
+#header .navigation-horizontal ul.navigation-level1 li:nth-last-child(2){
+	display:none;
+}
+.main .box-form .richText.login-register-account {
+  padding-left: 20px;
+  margin: 0;
+  position: relative;
+}
+.main .loginiframepanel {
+  padding: 0px 120px 0px 120px;
+}
+/* .main .richText.rte-login-header {
+  padding: 0px 120px 15px 120px;
+} */
+.main .box-form{
+/* 	padding: 0; */
+	margin-bottom: 0;
+}
+.box-login-empty {
+  margin-bottom: 0;
+}
+.box-outer {
+  margin: 0;
+}
+
+
+/*
+@media (max-width: 767px){
+	.dropdown-be .component-content .paragraphSystem {
+    right: 0 !important;
+}
+.dropdown-be {
+    width: 100% !important;
+}
+}
+*/
+@media only screen and (max-width: 960px) and (min-width: 768px){
+	  .dropdown-be {
+        width: 100% !important;
+    }
+	}
+
+@media only screen and (max-width: 239px) {
+	.dropdown-be { display: block; }
+}
+
+@media only screen and (max-width: 767px) { .dropdown-be { display: block; z-index: 1000 !important; top: 0px !important; width: 100% !important; position: absolute !important; }
+  .dropdown-be .component-content .paragraphSystem { position: absolute !important; top: 0 !important; width: 130px !important; right: 0 !important; } }
+
+/*********Language toggle*********/

@@ -1,0 +1,89 @@
+/*hard-coded colors*/
+/*border colors*/
+/*text colors*/
+/*hard-coded colors*/
+/*border colors*/
+/*text colors*/
+.userBox .logged-in, .userBox .logged-out { border: solid 2px #323131; padding: 13px; margin: 10px 0; }
+
+.userBox .logged-in .button, .userBox .logged-in a, .userBox .logged-out .button, .userBox .logged-out a { background-color: #e1e1e1; border: 1px solid #656363; color: #323131; padding: 5px 20px; border-radius: 20px; cursor: pointer; display: inline-block; }
+
+.userBox .logged-in .button:hover, .userBox .logged-in a:hover, .userBox .logged-out .button:hover, .userBox .logged-out a:hover { background-color: #939191; color: white; }
+
+.userBox .logged-in .lt-ie8 .button, .userBox .logged-out .lt-ie8 .button { display: inline; }
+
+.userBox .logged-in .button, .userBox .logged-out .button { float: right; }
+
+.userBox .logged-in .user { font-weight: bold; }
+
+.rte-header-logged-in { display: none; }
+
+.userBox .logged-out { padding: 0px 0px 0px 20px; margin: 0px; }
+
+.userBox .logged-in { padding: 0px 20px 0px 17px; margin: 0px; }
+
+.userbox-header.user-box { margin-left: 0px; margin-bottom: 0px; text-align: center; border-right: 1px solid #F0EFED; }
+
+.userbox-header.user-box p { font-family: georgia; font-size: 16px; color: #15717d; font-style: italic; margin-top: 8px; }
+
+.logged-in { border: 0px; padding-top: 0px; }
+
+.logged-in a { display: block; text-align: left; border-radius: 0px; border-bottom: 2px solid #f0efed; background-color: #fff; font-family: Arial; font-size: 16px; color: #15717d; padding: 10px 10px; }
+
+.logged-in button { float: left; border: 0px; border-radius: 0px; border-bottom: 2px solid #f0efed; background-color: #fff; font-family: georgia; font-style: italic; font-size: 16px; color: #15717d; width: 200px; text-align: left; padding: 10px 10px; }
+
+.userbox-header .logged-in .box-logged-in { margin-top: 12px; }
+
+.userbox-header .logged-in .box-logged-in:after, .userbox-header .logged-in .box-logged-in:before { border: solid transparent; content: ' '; height: 0; left: 10px; position: absolute; width: 0; }
+
+.userbox-header .logged-in .box-logged-in:after { border-width: 9px; border-bottom-color: #F36633; top: -19px; }
+
+.logged-out { border: 0px; }
+
+/*4.0 merging changes*/
+.userbox-header .logged-out { border: 0px; /*display: inline;*/ display: -webkit-inline-box; padding: 0px; color: #fefefe; }
+
+/*4.0 merging changes*/
+.userbox-header .logged-out .nav-mobile { display: inline-block; }
+
+.userbox-header .logged-out a { background-color: #fff; border: 0px; font-family: georgia; font-weight: normal; font-size: 16px; color: #15717d; padding: 0px 20px 0 17px; }
+
+.userbox-header .logged-out a:first-child { border-top: 0px; border-left: 0px; border-radius: 0px; border-right: 1px solid #f0efed; padding: 0 16px 0 13px; line-height: 16px; }
+
+.userbox-header .logged-out a:first-child:hover { border-right: 1px solid #f0efed; }
+
+.userbox-header .logged-out a:hover { background-color: #fff; border: 0px; font-family: georgia; font-style: italic; font-size: 16px; color: #15717d; }
+
+.logged-out p.vdivider { border-right: 2px solid #f0efed; }
+
+.box-logged-in { display: none; position: absolute; z-index: 9999; }
+
+.logged-out { color: #fff; }
+
+.box-header-primary.has-cart .userBox .logged-out { padding-left: 0px; }
+
+.userbox-header .logged-out .nav-mobile { display: block; margin-top: 0px; }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) { #wrapper .userbox-header .logged-in .box-logged-in { position: fixed; } }
+
+/* Mobile Start */
+@media only screen and (max-width: 767px) { .userbox-header .logged-out { display: none; background: #f0efed; padding: 0px; border-bottom: 8px solid #f36a37; border-top: 0px; border-left: 0px; border-right: 0px; position: absolute; z-index: 999; width: 100%; }
+  .userbox-header .logged-out a { display: block; background-color: #f0efed; border-bottom: 1px solid #b3aca9; border-radius: 0px; color: #f36a37; padding: 20px 20px; font-family: Arial; font-weight: bold; font-style: normal; }
+  .userbox-header .logged-out a:hover { display: block; background-color: #f36a37; border-bottom: 1px solid #b3aca9; border-radius: 0px; color: #fff; padding: 20px 20px; font-style: normal; }
+  .userbox-header .logged-out a:last-child { border-bottom: 0px; }
+  .userbox-header .logged-out a:first-child { padding: 20px; }
+  .userbox-header .logged-out a:hover, .userbox-header .logged-out a:hover { font-family: Arial; }
+  .userbox-header .logged-out a:first-child { border-bottom: 1px solid #b3aca9; border-right: 0px; }
+  .userbox-header .logged-out a:first-child:hover { border-right: 0px; }
+  .logged-in p { margin: 0px; background-position: 20px 20px; padding: 18px 20px 18px 45px; border-bottom: 1px solid #b3aca9; width: 100%; box-sizing: border-box; }
+  .userbox-header .logged-out .nav-mobile { display: block; margin-top: -21px; }
+  .userbox-header .box-logged-in { margin-top: 0px; }
+  .userbox-header .logged-in .box-logged-in { margin-top: 0px; } }
+
+/* Tablet View */
+@media only screen and (min-width: 768px) and (max-width: 989px) { .userbox-header .logged-out a { padding: 3px 10px; }
+  .userbox-header .logged-out a:first-child { padding: 0 10px; }
+  .userbox-header .logged-out a:first-child:hover { padding: 0 10px; }
+  .userbox-header .logged-out a:hover { padding: 3px 10px; }
+  .userBox .logged-out { padding: 0px; }
+  .userBox .logged-in .button, .userBox .logged-in a, .userBox .logged-out .button, .userBox .logged-out a { display: inline; } }

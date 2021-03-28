@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.content {
+	/*margin: 30px 0px;*/
+/*	border-top: 1px solid #ccc; */
+}
+
+.content h3 {
+	text-decoration: none;
+	margin: 20px 0px;
+}
+
+.content-left-box {
+}
+
+.speaker-wrap-new {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	min-height: 100px;
+	padding: 20px 10px;
+}
+
+.speaker-image-new {
+	float: left;
+	width: 24%;
+}
+
+.speaker-image-new_img {
+	border-radius: 50%;
+	border: 2px solid #fff;
+	width: 100%;
+	height: auto;
+}
+
+.speaker-info-wrap-new {
+	float: left;
+	width: 73%;
+	background-color: #fff;
+	min-height: 50px;
+	margin: 0px 0px 0px 10px;
+	padding: 5px 7px;
+}
+
+.designation {
+	font-size: 16px;
+}
+
+.information {
+	
+}
+
+.mandatory-text {
+	font-size: 12px;
+}
+
+.border {
+	border-bottom: 1px solid #fff;
+	margin: 20px 0px;
+}
+.speaker-wrap {
+	margin: 20px 0px;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.speaker-details {
+	margin: 10px 0px;
+}
+
+.speaker-name {
+	font-weight: bold;
+	display: block;
+}
+
+.speaker-designation {
+	font-style: italic;
+}
+
+.event-details {
+	font-size: 17px;
+}
+
+.orange-color {
+	color: #ed702a;
+}
+
+.orange-button {
+	background-color: #ed702a;
+	color: #fff;
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	padding: 15px 0px 15px 0px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+	border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

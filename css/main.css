@@ -1,0 +1,235 @@
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+  float: left;
+  margin: 10px 0;
+}
+
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  background: transparent none repeat scroll 0 0;
+  border: 0 none;
+  font-size: 100%;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+b {
+  font-weight: bold;
+}
+
+p{
+  color: #707070;
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+h1{
+	font-size:2.5rem;
+	text-align: center;
+}
+
+h2{
+  font-size: 18px;
+   color: #5ebcd8;
+   font-weight: bold;
+   margin: 20px 0;
+}
+
+img{
+  margin: 0 auto;
+/*  width: 100%;*/
+}
+
+.img {
+    text-align: center;
+}
+
+section{
+  padding: 20px 0;
+}
+
+body{
+  color: #000;
+/*  font-family: 'Didact Gothic', sans-serif;*/
+}
+
+.color-light-blue{
+  color: #5ebcd8;
+}
+.color-dark-blue{
+  color: #004284;
+}
+
+.desktop{
+  display: none;
+}
+@media screen and (min-width:992px) {
+  .desktop{
+    display: initial;
+  }
+} 
+.mobile{
+  display: initial;
+}
+@media screen and (min-width:992px) {
+  .mobile{
+    display: none;
+  }
+} 
+
+
+/*SECCION INTRO*/
+#intro{
+  background-image: url('../img/header_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+
+}
+#intro .title p{
+  color: #000;
+  font-size: 31px;
+  font-weight: bold;
+  margin: 0;
+  
+}
+#intro .title p span{
+  font-size: 54px;
+}
+
+/*
+#intro img{
+  max-width: 100%;
+}
+*/
+
+
+/*CONTADOR*/
+#contador{
+  text-align: center;
+}
+
+
+
+/*SECCION FORM*/
+
+tr {
+    width: 100%;
+    float: left;
+}
+
+@media screen and (min-width:768px) {
+  tr {
+      width: 50%;
+  }
+}
+
+td {
+    width: 100%;
+    float: left;
+}
+
+section input{
+  width: 92%;
+  margin: 10px 0px;
+  padding: 20px 20px;
+  border: 0px;
+}
+
+.form_part{
+  color:  #fff;
+}
+
+#regForm button{
+  background-color: #ffd269;
+  border: 0px; 
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 10px;
+  width: 281px;
+  font-size: 20px;
+  border-radius: 28px;
+}
+
+.terms{
+  text-align: left;
+  color: #fff;
+}
+
+.terms label{
+  margin-left: 10px;
+
+width: 90%;
+}
+
+.terms a{
+  color:  #fff;
+}
+
+
+/*Agenda*/
+
+#agenda span{
+  font-size: 18px;
+}
+
+#sidebar{
+  border-top: 1px solid #004284;
+  border-bottom: 1px solid #004284;
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+  #sidebar{
+    text-align: left;
+  }
+}
+
+#sidebar .icon{
+  max-width: 35px;
+}
+#sidebar .btn{
+  max-width: 418px;
+}
+
+
+
+
+#acceptedterms, #cb_deseorecibirlasltimasnoticiasdegskcom{
+width: auto;
+float: left;
+margin: 7px 0 0 0;
+}
+
+
+.contador{
+  margin: auto;
+}
+.contador td {
+  float: none;
+  width: 25px;
+  padding: 0 20px
+}
+.tit{
+  font-size: 11px;
+  color:#5ebcd8;
+}
+
+
+        #demo {
+            text-align: center;
+            font-size: 60px;
+            line-height: 17px;
+            color: #004284;
+            font-weight: bold;
+            margin: 60px auto;
+        }

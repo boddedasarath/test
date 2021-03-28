@@ -1,0 +1,1109 @@
+/* COLOR NAMES
+----------------------------------------- */
+/*theme colors*/
+/* FUNCTIONAL COLORS
+----------------------------------------- */
+/*border colors*/
+/*text colors*/
+/*background colors*/
+/* STATES AND INPUT GROUP VARIABLES
+    ------------------------------------*/
+/*   TEMPORARY VARIABLES FOR OPERATIONS
+    ------------------------------------*/
+/*   CREATING SCSS USABLE VARIABLES FOR INTERPOLATION
+    ------------------------------------*/
+/*   FUNCTIONAL VARIABLES FOR INPUTS AND STATES
+    ------------------------------------*/
+/* COLOR AND FONT VARIABLES
+TODO: SEPARATE COLOR ON FUNCTIONS
+    ------------------------------------*/
+/*$errorMainColor: #b94a48;*/
+/*$errorBorderColor: #953b39;*/
+/* MAIN STYLE FOR FORM
+    ------------------------------------*/
+/* line 99, ../../sass/components/login.scss */
+.login {
+  /* TWITTER BOOTSTRAP FORM STYLE
+    ------------------------------------*/
+  /* STATES STYLES
+      ------------------------------------*/
+  /* Messages
+     ------------------------------------*/
+  /* ARROW BUTTON STYLES
+     -----------------------------------*/
+}
+/* line 101, ../../sass/components/login.scss */
+.login .component-content {
+  background-color: #EEECE4;
+  padding: 0 1em;
+}
+/* line 109, ../../sass/components/login.scss */
+.login form {
+  margin: 0 0 22px;/*pravin*/
+}
+/* line 113, ../../sass/components/login.scss */
+.login fieldset {
+  border: 0;
+  margin: 15px 0;
+  min-width: 0;
+}
+/* line 120, ../../sass/components/login.scss */
+.login legend,
+.login h2 {
+  border-bottom: 1px solid #998A7C;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  padding: 10px 0;
+  width: 100%;
+}
+/* line 129, ../../sass/components/login.scss */
+.login fieldset legend {
+  display: table;
+  white-space: normal;
+  margin-right: 10px;
+}
+/* line 139, ../../sass/components/login.scss */
+.login label,
+.login input,
+.login button,
+.login select,
+.login textarea {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  max-width: 100%;
+}
+/* line 146, ../../sass/components/login.scss */
+.login textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 300px;
+  min-width: 200px;
+}
+/* line 155, ../../sass/components/login.scss */
+.login input,
+.login button,
+.login select,
+.login textarea {
+  font-family: Arial, sans-serif;
+}
+/* line 159, ../../sass/components/login.scss */
+.login label {
+  display: block;
+  margin-bottom: 7px;/*pravin*/
+}
+/* line 167, ../../sass/components/login.scss */
+.login select,
+.login textarea,
+.login input[type="email"], .login input[type="number"], .login input[type="password"], .login input[type="search"], .login input[type="tel"], .login input[type="text"], .login input[type="url"], .login input[type="color"], .login input[type="date"], .login input[type="DATEPICKER"], .login input[type="datetime"], .login input[type="datetime-local"], .login input[type="month"], .login input[type="time"], .login input[type="week"],
+.login .uneditable-input {
+  display: inline-block;
+  height: 35px;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #c9bfb8;
+  vertical-align: middle;
+}
+/* line 180, ../../sass/components/login.scss */
+.login input,
+.login textarea,
+.login .uneditable-input {
+  width: 206px;
+}
+/* line 184, ../../sass/components/login.scss */
+.login fieldset textarea {
+  resize: vertical;
+  width: 100%;
+}
+/* line 189, ../../sass/components/login.scss */
+.login textarea {
+  height: auto;
+}
+/* line 196, ../../sass/components/login.scss */
+.login select,
+.login textarea,
+.login input[type="email"], .login input[type="number"], .login input[type="password"], .login input[type="search"], .login input[type="tel"], .login input[type="text"], .login input[type="url"], .login input[type="color"], .login input[type="date"], .login input[type="DATEPICKER"], .login input[type="datetime"], .login input[type="datetime-local"], .login input[type="month"], .login input[type="time"], .login input[type="week"],
+.login .uneditable-input {
+  background-color: white;
+  border: 1px solid transparent;
+  -webkit-transition: border linear, box-shadow linear;
+  -webkit-transition-delay: 0.2s, 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+/* line 205, ../../sass/components/login.scss */
+.login select:focus,
+.login textarea:focus,
+.login input[type="email"]:focus, .login input[type="number"]:focus, .login input[type="password"]:focus, .login input[type="search"]:focus, .login input[type="tel"]:focus, .login input[type="text"]:focus, .login input[type="url"]:focus, .login input[type="color"]:focus, .login input[type="date"]:focus, .login input[type="DATEPICKER"]:focus, .login input[type="datetime"]:focus, .login input[type="datetime-local"]:focus, .login input[type="month"]:focus, .login input[type="time"]:focus, .login input[type="week"]:focus,
+.login .uneditable-input:focus {
+  border-color: rgba(255, 102, 0, 0.8);
+  color: #323131;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 102, 0, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 102, 0, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 102, 0, 0.6);
+}
+/* line 215, ../../sass/components/login.scss */
+.login input + .help-block,
+.login select + .help-block,
+.login textarea + .help-block,
+.login .uneditable-input + .help-block {
+  margin-top: 10px;
+}
+/* line 223, ../../sass/components/login.scss */
+.login input,
+.login textarea,
+.login select,
+.login .help-inline,
+.login .uneditable-input {
+  display: inline-block;
+  *display: inline;
+  margin-bottom: 0;
+  vertical-align: middle;
+  *zoom: 1;
+}
+/* line 232, ../../sass/components/login.scss */
+.login input[type="radio"],
+.login input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px                  \9;
+  *margin-top: 0;
+  line-height: normal;
+}
+/* line 245, ../../sass/components/login.scss */
+.login input[type="file"],
+.login input[type="image"],
+.login input[type="submit"],
+.login input[type="reset"],
+.login input[type="button"],
+.login input[type="radio"],
+.login input[type="checkbox"] {
+  width: auto;
+}
+/* line 250, ../../sass/components/login.scss */
+.login select,
+.login input[type="file"] {
+  height: 43px;
+  /* In IE7, the height of the select element cannot be changed by height, only font-size */
+  *margin-top: 4px;
+  /* For IE7, add top margin to align select with labels */
+  line-height: 43px;
+  padding: 12px 10px;
+}
+/* line 259, ../../sass/components/login.scss */
+.login select {
+  width: 220px;
+  background-color: white;
+  border: 1px solid transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: white url("../img/arrow-down-select.png") right center no-repeat;
+  text-indent: 0.01px;
+  text-overflow: "";
+  outline: 0;
+  line-height: 1em;
+}
+/* line 272, ../../sass/components/login.scss */
+.login select::-ms-expand {
+  display: none;
+}
+/* line 277, ../../sass/components/login.scss */
+.login select[multiple],
+.login select[size] {
+  height: auto;
+}
+/* line 282, ../../sass/components/login.scss */
+.login .uneditable-input,
+.login .uneditable-textarea {
+  color: #999999;
+  cursor: not-allowed;
+  background-color: #fcfcfc;
+  border-color: #cccccc;
+  -webkit-box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.025);
+  -moz-box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.025);
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.025);
+}
+/* line 290, ../../sass/components/login.scss */
+.login .uneditable-input {
+  overflow: hidden;
+  white-space: nowrap;
+}
+/* line 295, ../../sass/components/login.scss */
+.login .uneditable-textarea {
+  width: auto;
+  height: auto;
+}
+/* line 305, ../../sass/components/login.scss */
+.login input:-moz-placeholder,
+.login textarea:-moz-placeholder,
+.login input:-ms-input-placeholder,
+.login textarea:-ms-input-placeholder,
+.login input::-webkit-input-placeholder,
+.login textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+/* line 309, ../../sass/components/login.scss */
+.login .form-actions {
+  padding-left: 180px;
+}
+/* line 313, ../../sass/components/login.scss */
+.login .hide {
+  display: none;
+}
+/* line 318, ../../sass/components/login.scss */
+.login .radio,
+.login .checkbox {
+  min-height: 20px;
+  padding-left: 20px;
+}
+/* line 324, ../../sass/components/login.scss */
+.login .radio input[type="radio"],
+.login .checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: -22px;
+}
+/* line 331, ../../sass/components/login.scss */
+.login .wsform-controls,
+.login .controls,
+.login .login-links {
+  *display: inline-block;
+  *padding-left: 20px;
+  margin-left: 180px;
+  *margin-left: 0;
+}
+/* line 337, ../../sass/components/login.scss */
+.login .wsform-controls:first-child,
+.login .controls:first-child,
+.login .login-links:first-child {
+  *padding-left: 180px;
+}
+/* line 342, ../../sass/components/login.scss */
+.login .login-links {
+  padding:0 0 16px 0;/*pravin*/
+}
+/* line 345, ../../sass/components/login.scss */
+.login .login-links a {
+  margin-right: 15px;
+  padding-left: 10px;
+  position: relative;
+}
+/* line 350, ../../sass/components/login.scss */
+.login .login-links a:after {
+  content: ">";
+  display: block;
+  left: 0;
+  line-height: 1;
+  position: absolute;
+  top: 0;
+}
+/* line 362, ../../sass/components/login.scss */
+.login .wsform-controls > .radio:first-child,
+.login .wsform-controls > .checkbox:first-child {
+  padding-top: 5px;
+}
+/* line 367, ../../sass/components/login.scss */
+.login .radio.inline,
+.login .checkbox.inline {
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+/* line 375, ../../sass/components/login.scss */
+.login .radio.inline + .radio.inline,
+.login .checkbox.inline + .checkbox.inline {
+  margin-left: 10px;
+}
+/* line 381, ../../sass/components/login.scss */
+.login input,
+.login textarea,
+.login .uneditable-input {
+  margin-left: 0;
+}
+/* line 385, ../../sass/components/login.scss */
+.login .wsform-controls-row {
+  *zoom: 1;
+}
+/* line 388, ../../sass/components/login.scss */
+.login .wsform-controls-row:before, .login .wsform-controls-row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+/* line 393, ../../sass/components/login.scss */
+.login .wsform-controls-row:after {
+  clear: both;
+}
+/* line 403, ../../sass/components/login.scss */
+.login input[disabled],
+.login select[disabled],
+.login textarea[disabled],
+.login input[readonly],
+.login select[readonly],
+.login textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+/* line 408, ../../sass/components/login.scss */
+.login input[readonly].hasDatepicker {
+  cursor: pointer;
+  background-color: #fff;
+}
+/* line 416, ../../sass/components/login.scss */
+.login input[type="radio"][disabled],
+.login input[type="checkbox"][disabled],
+.login input[type="radio"][readonly],
+.login input[type="checkbox"][readonly] {
+  background-color: transparent;
+}
+/* line 423, ../../sass/components/login.scss */
+.login .wsform-label {
+  float: left;
+  width: 160px;
+  padding-top: 0px;/*pravin*/
+  text-align: left;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom:8px;/*p*/
+}
+/* line 434, ../../sass/components/login.scss */
+.login .wsform-message {
+  display: none;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+/* line 439, ../../sass/components/login.scss */
+.login .wsform-message a {
+  color: #333;
+}
+/* line 442, ../../sass/components/login.scss */
+.login .wsform-message a:hover {
+  color: #000;
+}
+/* line 447, ../../sass/components/login.scss */
+.login .wsform-message.wsform-success {/*pravin*/
+ /* background-color: #dff2bf;
+  border: 1px solid #89b15f;*/
+  color: #468847;
+}
+.login .wsform-message.wsform-success p{/*pravin*/
+	display:none;	
+}
+/* line 453, ../../sass/components/login.scss */
+.login .wsform-message.wsform-failure {
+  background-color: #FEEFB3;
+  border: 1px solid #BF9555;
+  color: #996A25;
+}
+/* line 459, ../../sass/components/login.scss */
+.login .wsform-message.wsform-error {
+  background-color: #ffbaba;
+  border: 1px solid #e53e46;
+  color: #c6080e;
+}
+/* line 465, ../../sass/components/login.scss */
+.login .wsform-message.wsform-info {
+  background-color: #bde5f8;
+  border: 1px solid #3f83ba;
+  color: #0F62A6;
+}
+/* line 473, ../../sass/components/login.scss */
+.login .wsform-hint,
+.login .mandatory-marker {
+  color: #FF0000;/*praivn*/
+}
+/* line 477, ../../sass/components/login.scss */
+.login .wsform-hint-server {
+  display: none;
+}
+/* line 483, ../../sass/components/login.scss */
+.login input:focus:invalid,
+.login textarea:focus:invalid,
+.login select:focus:invalid {
+  color: #c6080e;
+  border-color: #ee5f5b;
+}
+/* line 490, ../../sass/components/login.scss */
+.login input:focus:invalid:focus,
+.login textarea:focus:invalid:focus,
+.login select:focus:invalid:focus {
+  border-color: #e9322d;
+  -webkit-box-shadow: 0 0 6px #d59392;
+  -moz-box-shadow: 0 0 6px #d59392;
+  box-shadow: 0 0 6px #d59392;
+}
+/* line 496, ../../sass/components/login.scss */
+.login .help-block,
+.login .help-inline {
+  color: #595959;
+}
+/* line 500, ../../sass/components/login.scss */
+.login .help-block {
+  display: block;
+  margin-bottom: 0;
+}
+/* line 505, ../../sass/components/login.scss */
+.login .help-inline {
+  display: inline-block;
+  *display: inline;
+  padding-left: 5px;
+  vertical-align: middle;
+  *zoom: 1;
+}
+/* line 513, ../../sass/components/login.scss */
+.login .wsform-item {
+  margin: 0;
+  *zoom: 1;
+}
+/* line 518, ../../sass/components/login.scss */
+.login .wsform-item:before, .login .wsform-item:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+/* line 523, ../../sass/components/login.scss */
+.login .wsform-item:after {
+  clear: both;
+}
+/* line 529, ../../sass/components/login.scss */
+.login .wsform-item .wsform-controls a {
+  margin-right: 15px;
+  padding-left: 10px;
+  position: relative;
+}
+/* line 534, ../../sass/components/login.scss */
+.login .wsform-item .wsform-controls a:after {
+  content: '>';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 1;
+}
+/* line 549, ../../sass/components/login.scss */
+.login legend + .wsform-item,
+.login h2 + .wsform-item,
+.login h2 + .wsform-result + .wsform-item {
+  margin-top: 20px;
+  -webkit-margin-top-collapse: separate;
+}
+/* line 554, ../../sass/components/login.scss */
+.login .radio input[type="radio"] {
+  width: 20px;
+  float: none;
+  vertical-align: baseline;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 562, ../../sass/components/login.scss */
+.login .radio .radio-label-text {
+  line-height: 13px;
+  vertical-align: baseline;
+}
+/* line 571, ../../sass/components/login.scss */
+.login .button-arrow-left button,
+.login .button-arrow-right button {
+  position: relative;
+  box-shadow: none;
+  height: 28px;
+  overflow: visible;
+}
+/* line 578, ../../sass/components/login.scss */
+.login .button-arrow-left button {
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: 20px;
+}
+/* line 585, ../../sass/components/login.scss */
+.login .button-arrow-right button {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: 20px;
+}
+/* line 593, ../../sass/components/login.scss */
+.login .button-arrow-left button:after,
+.login .button-arrow-right button:after {
+  content: ' ';
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  background-color: #e1e1e1;
+  border: 2px solid #656363;
+  box-shadow: none;
+}
+/* line 605, ../../sass/components/login.scss */
+.login .button-arrow-left button:after {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  left: -10px;
+  border-width: 0px 1px 1px 0px;
+  border-bottom-right-radius: 5px;
+}
+/* line 616, ../../sass/components/login.scss */
+.login .button-arrow-right button:after {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  right: -10px;
+  border-width: 1px 1px 0px 0px;
+  border-top-right-radius: 5px;
+}
+/* line 628, ../../sass/components/login.scss */
+.login .button-arrow-left button:hover:after,
+.login .button-arrow-right button:hover:after {
+  background-color: #939191;
+}
+
+/* IE STYLES
+    ------------------------------------*/
+/* line 640, ../../sass/components/login.scss */
+.lt-ie9 .login fieldset {
+  position: relative;
+  margin: 10px;
+}
+/* line 645, ../../sass/components/login.scss */
+.lt-ie9 .login fieldset legend {
+  position: relative;
+  top: -0.7em;
+  left: 0.5em;
+  margin-right: 20px;
+}
+/* line 652, ../../sass/components/login.scss */
+.lt-ie9 .login fieldset legend span {
+  display: block;
+  width: 100%;
+}
+/* line 657, ../../sass/components/login.scss */
+.lt-ie9 .login .input-focus-border-fix {
+  border-color: #ff6600;
+}
+/* line 661, ../../sass/components/login.scss */
+.lt-ie9 .login .button {
+  /*border: 1px solid #656363;*/
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 669, ../../sass/components/login.scss */
+.lt-ie9 .login .button-arrow-left button:after,
+.lt-ie9 .login .button-arrow-right button:after {
+  position: static;
+  border: none;
+  display: inline;
+}
+/* line 675, ../../sass/components/login.scss */
+.lt-ie9 .login .button-arrow-left button:before {
+  content: "<<";
+  padding-right: 5px;
+}
+/* line 680, ../../sass/components/login.scss */
+.lt-ie9 .login .button-arrow-right button:after {
+  content: ">>";
+  padding-left: 5px;
+}
+
+/* line 693, ../../sass/components/login.scss */
+.lt-ie8 .login fieldset legend {
+  top: -0.5em;
+}
+/* line 697, ../../sass/components/login.scss */
+.lt-ie8 .login .button {
+  display: inline;
+}
+/* line 702, ../../sass/components/login.scss */
+.lt-ie8 .login .button-arrow-left button,
+.lt-ie8 .login .button-arrow-right button {
+  position: static;
+}
+
+/* MEDIA QUERIES
+    ------------------------------------*/
+@media only screen and (max-width: 767px) {
+  /* line 717, ../../sass/components/login.scss */
+  .login .radio input[type="radio"] {
+    height: 14px;
+  }
+  /* line 721, ../../sass/components/login.scss */
+  .login .wsform-item {
+    margin-bottom: 0px;/*pravin*/
+  }
+  /* line 725, ../../sass/components/login.scss */
+  .login .checkboxField .control-label {
+    float: left;
+  }
+  /* line 729, ../../sass/components/login.scss */
+  .login .wsform-label {
+    float: none;
+    width: 160px;
+    padding-top: 5px;
+    text-align: left;
+  }
+  /* line 738, ../../sass/components/login.scss */
+  .login .wsform-controls,
+  .login .controls,
+  .login .login-links {
+    margin-left: 0;
+  }
+  /* line 742, ../../sass/components/login.scss */
+  .login .help-block {
+    margin-bottom: 10px;
+  }
+  /*pravin*/
+  .login input[type="text"], .login input[type="password"]{
+	margin-bottom:12px;  
+  }
+  .login-content .login-links {
+ 	margin: 0 0 15px;
+  }
+  .login .login-links{/*p 07*/
+  	padding:0 0 16px 0;
+  }
+}
+@media only screen and (max-width: 239px) {
+  /* line 755, ../../sass/components/login.scss */
+  .login input,
+  .login textarea,
+  .login .uneditable-input {
+    width: 200px;
+  }
+  /* line 759, ../../sass/components/login.scss */
+  .login select {
+    width: 200px;
+  }
+}
+
+
+/*------------------ LOGIN FORM ---------------------*/
+
+.page-registration .box-last-updated-share-this-page .rte-share-this-page,
+.page-login-link .box-last-updated-share-this-page .rte-share-this-page,
+.page-login-post-registration .box-last-updated-share-this-page .rte-share-this-page,
+.page-login-temp-password .box-last-updated-share-this-page .rte-share-this-page
+{
+	display:none;	
+}
+
+
+.rte-mandatory-registration .rte-mandatory-registration{
+	font-family:arial;
+	font-size:15px;
+	color:#333333;
+}
+.rte-asterisk-registration{
+	color:#FF0000;
+	font-size:16px;	
+}
+.rte-report-form-content p{
+	font-family:arial;
+	font-size:15px;
+	color:#72635d;	
+}
+.rte-report-form-content p a{
+	font-family:arial;
+	font-size:15px;
+	color:#15717d;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+/*------------------- LOGIN BOX ---------------------*/
+.login input[type="text"]{
+	padding:0px 6px;
+	box-sizing:border-box;
+	margin-bottom:17px;/*pravin*/
+}
+.login input[type="password"]{
+	padding:0px 6px;
+	box-sizing:border-box;
+	margin-bottom:15px;/*pravin*/
+}
+.login .component-content{
+	padding:0px;
+}
+.login-content .login-links a:hover, .userbox-header.userBox .logged-in a:hover, .userbox-header.userBox .logged-in button:hover{
+	text-decoration:underline;
+}
+.login .wsform-controls, .login .controls, .login .login-links{
+	margin-left:0px;
+}
+.userbox-header.userBox .logged-in{
+	border:0px;
+	padding-top:0px;	
+}
+/*fix for deeplinking*/
+/*.logged-in p{
+	padding:0px 0px 1px;	
+}*/
+.logged-in p .user{
+	color:#15717E;	
+}
+/*fix for deeplinking*/
+/*.logged-in p{
+	font-family:georgia;
+	font-style:italic;
+	font-size:16px;
+	color:#15717E;/*pravin*/
+	/*background:url("../../img/human-icon.png");
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	padding-left:25px;
+	cursor:pointer;
+	width: 115px;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	margin: 0px;
+}*/
+.logged-in p .userBox-lastName{/*pravin 2506*/
+	font-family:georgia;
+	font-style:italic;
+	font-size:16px;
+	color:#15717d;
+	cursor:pointer;
+}
+.userbox-header .logged-in .box-logged-in{
+	border:1px solid #cccccc;
+	border-top:4px solid #F36633;
+	background-color:#ffffff;
+}
+.userbox-header.userBox .logged-in a{
+	display:block;
+	text-align:left;
+	border-top:0px;
+	border-left:0px;
+	border-radius:0px;
+	border-right:0px;
+	border-bottom:1px solid #f0efed;
+	background-color:#ffffff;	
+	font-weight:bold;
+	font-size:16px;
+	color:#15717d;
+	padding:15px 0px 13px;/*pravin*/
+	margin:0px 16px;/*pravin*/
+}
+.userbox-header.userBox .logged-in a:hover{
+	background:#ffffff;
+	color:#15717d;
+}
+.userbox-header.userBox .logged-in button{
+	float:left;
+	border-top:0px;
+	border-left:0px;
+	border-radius:0px;
+	border-right:0px;
+	border-bottom:0px;
+	background-color:#ffffff;
+	font-family:Arial;
+	font-weight:bold;
+	font-style: normal;
+	font-size:16px;
+	color:#15717d;	
+	width:80%;
+	text-align:left;
+	padding:17px 0px 16px;/*pravin*/
+	margin:0px 16px;/*pravin*/
+}
+.userbox-header.userBox .logged-in button:hover{
+	background-color:#ffffff;
+	color:#15717d;
+}
+.logged-out{
+	border:0px;	
+}
+.logged-out a{
+	background-color:#ffffff;
+	border:0px;	
+	font-family:georgia;
+	font-style:italic;
+	font-size:16px;
+	color:#15717d;
+}
+.logged-out p.vdivider{
+	border-right:2px solid #f0efed;
+}
+.box-logged-in{
+	display:none;
+	position:absolute;
+	z-index:9999;
+	width:170px;
+}
+
+.login-links .login-links-register{
+	display:none;
+}
+.login-content .login-links a{
+	padding-left:0px;
+}
+.login .component-content{
+	padding-left:0px;
+    background:#f0efed;
+}
+.login-content h2{
+	display:none;	
+}
+.login-content .wsform-item .wsform-label{
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	color:#333333;
+}
+
+.login-content .wsform-item .wsform-controls{
+	clear:left;
+	margin-left:0px;	
+}
+.box-form .wsform-item .wsform-controls input[type="text"], 
+.box-form .wsform-item .wsform-controls input[type="password"]{
+	width:100%;
+	height:44px;
+	border:1px solid #cac9c7;
+	border-radius:0px;
+}
+.box-form .wsform-item .wsform-controls input[type="text"]:focus, .box-form .wsform-item .wsform-controls input[type="password"]:focus{
+	border:3px solid #cac9c7;
+ 	-webkit-box-shadow:none;
+  	-moz-box-shadow:none;
+  	box-shadow:none;
+  }
+.login-content .login-links a{
+	color:#15717d;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+}
+.login-content .login-links a:after{
+	content:none;
+}
+.login-content .login-links{
+	border-bottom:2px solid #dfdfdf;	
+}
+.box-form .control-group{
+	margin:0px;
+	margin-top:20px;	/*pravin*/
+}
+.login-content .control-group button{
+	background-color: #15717D;
+	padding: 10px 25px;
+	border-radius: 20px;
+	text-align: center;
+	color: #FFF;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;	
+	border:0 none;/*pravin*/
+}
+.login-content .control-group button:hover, .login-content .control-group button:focus{/*pravin*/
+	background-color:#FFFFFF;
+	border:2px solid #15717D;
+	color:#15717D;
+	padding: 8px 25px;
+}
+.box-form .control-group .controls{
+	margin-left:0px;
+}
+.login .wsform-message.wsform-failure{
+	background:#f0efed;
+	border:0px;
+	color:#ba1977;
+	font-family:arial;
+	font-style:normal;
+	margin-left:0px;
+	background:url("../img/error-message-icon.png");
+	background-position:0px 1px;
+	background-repeat:no-repeat;
+	padding-left:23px;
+	margin:0 0 16px 0;
+}
+.login .wsform-hint.has-message{
+	padding-bottom:12px;
+}
+.login .wsform-hint{
+	color:#ba1977;
+	font-family:arial;
+	font-size:14px;
+	margin-top:0px;
+	background:url("../img/error-message-icon.png");
+	background-repeat:no-repeat;
+	background-position:0px 1px;
+	padding-left:23px;
+}
+
+@media only screen and (max-width:767px){
+
+.login-content .login-links{
+	margin-left:0px;
+}
+.login-content .wsform-item{
+	margin-left:0px;	
+}
+.login input[type="text"]{/*p 1707*/
+	margin-bottom:12px;
+}
+.login .wsform-label{/*p 1707*/
+	margin-bottom:4px;	
+}
+.login-content .login-links{
+	margin:0px 0px 14px;/*pravin 0707*/
+}
+.login-content .control-group button{
+	width:100%;	
+}
+.control-group{
+	text-align:left;
+}
+.login-content .control-group .controls{
+	margin-left:0%;
+}
+.box-form .wsform-item .wsform-controls input[type="text"], 
+.box-form .wsform-item .wsform-controls input[type="password"]
+{
+	width:100%;
+}
+.box-form .control-group .controls{
+	margin-left:0px;
+}
+.userbox-header.userBox .logged-in{/*pravin 2506*/
+	padding:0px;
+}
+.userbox-header .logged-in .box-logged-in{/*pravin 2506*/
+	display:block;
+	position:static;	
+	z-index:9999;
+	border:0 none;
+	width:100%;/*p*/
+	background:none;
+}
+.userbox-header.userBox .logged-in a{/*pravin 2506*/
+	margin:0px;
+	padding:18px 20px;
+	border-bottom:1px solid #b3aca9;
+	border-top:0 none;
+	border-right:0 none;
+	border-left:0 none;
+	color: #f36633;
+    font-size: 16px;
+	font-family:Arial;
+	background:none;
+}
+.userbox-header.userBox .logged-in button{/*pravin 2506*/
+	width:100%;
+	margin:0px;
+	padding:18px 20px;
+	color: #f36633;
+    font-size: 16px;
+	font-family:Arial;
+	background:none;
+	border-bottom:1px solid #b3aca9;
+	border-top:0 none;
+	border-right:0 none;
+	border-left:0 none;
+}
+.userbox-header.userBox .logged-in button:hover, .userbox-header.userBox .logged-in a:hover{/*pravin 2506*/
+	background:#F36633;
+	color:#FFFFFF;
+}
+.acc-logged-header .logged-in{/*pravin*/
+	display:none;
+}
+
+/*------------------ LOGIN FORM ---------------------*/
+.box-form .wsform-item .wsform-controls input[type="text"], 
+.box-form .wsform-item .wsform-controls input[type="password"]{
+	height:44px;
+}
+.image-form-intro img{
+	margin-top:20px;
+	width:100%;	
+}
+.main .box-header-links .box-title-description .image-contact-us{
+	width:77px;
+	float:right;
+}
+.main .box-header-links .box-title-description .image-registration-logo{/*p*/
+	width:77px;
+	float:right;
+	margin-top: 0px;	
+} 
+.main .box-header-links .box-title-description .image-report-event,
+.main .box-header-links .box-title-description .image-confirmation-headerbox-icon{/*p*/
+	width:77px;
+	float:right;
+	margin-top: 20px;	
+}
+.main .box-header-links .box-title-description .image-req-a-rep{
+	width:77px;
+	float:right;
+	margin-right: 10%;
+}
+.image-contact-us img, .image-registration-logo img, .image-report-event img, .image-req-a-rep img, .image-confirmation-headerbox-icon img{/*p*/
+	width:100%;	
+}
+/*---------------------------------------------------*/	
+.login .wsform-hint.has-message{
+	padding-bottom:10px;	
+}
+}
+
+@media only screen and (max-width: 960px) and (min-width: 768px){
+    /*fix for deeplinking*/
+/*.logged-in p{
+	padding-left:25px;
+}*/
+.image-contact-us img, .image-registration-logo img, .image-report-event img, .image-req-a-rep img, .image-confirmation-headerbox-icon img{/*p*/
+	width:95%;	
+}
+}
+
+/*fix for deeplinking*/
+.login-content .logged-in .login-links a {
+    padding-left: 0px;
+    background-color: #f0efed;
+}
+
+.login-content .logged-in .control-group button{
+	font-style: normal;
+}
+
+.userBox .logged-in p{
+	padding:0px 0px 1px;
+        }
+.userBox .logged-in p{
+	font-family:georgia;
+	font-style:italic;
+	font-size:16px;
+	color:#15717E;/*pravin*/
+	background:url("../img/human-icon.png");
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	padding-left:25px;
+	cursor:pointer;
+	width: 143px;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	margin: 0px;
+}
+
+
+@media only screen and (max-width: 960px) and (min-width: 768px){
+
+.userBox .logged-in p{
+	padding-left:25px;
+}
+}
+/*END*/

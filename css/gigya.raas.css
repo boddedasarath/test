@@ -1,0 +1,790 @@
+/*hard-coded colors*/
+/*border colors*/
+/*text colors*/
+/*hard-coded colors*/
+/*border colors*/
+/*text colors*/
+#wrapper .gigya-input-submit { border: 2px solid #15717d; color: #ffffff; background: #15717d; border-radius: 30px; height: auto; width: auto; cursor: pointer; padding: 10px 20px; margin-top: 30px; width: auto; }
+
+#wrapper .gigya-input-submit:hover, #wrapper .gigya-input-submit:focus { background: #ffffff; color: #15717d !important; text-decoration: none; }
+
+#wrapper .gigya-registration-main .ciam-margin-top .chkAccept .gigya-error-msg { float: left; background-position: 0px 0px; margin-left: 0px; margin-top: 0px; padding-top: 0px; position: absolute; top: 29px; }
+
+#wrapper .ciam-margin-top .gigya-composite-control.chkAccept.secondsection.Legalstmt.gigya-terms-error { padding: 0px; position: relative; right: 0px; border: 0px solid #DD4B39; }
+
+#wrapper .gigya-screen .gigya-error-msg { text-align: left; padding-bottom: 1px; background: url(../../img/error-message-icon.png); background-repeat: no-repeat; background-position: 0px 0px; background-size: 16px 16px; padding-left: 24px !important; color: #ba1977; font-family: arial; font-size: 14px; clear: both; font-weight: normal; float: left; width: 100%; margin-top: 5px; }
+
+a.gigyaloginmessageclose { background-color: #15717d; width: 17px; height: 24px; font-size: 16px; font-family: arial; position: absolute; float: right; padding-left: 20px; margin-right: 5px; margin-top: 15px; cursor: pointer; top: 0; right: 0; background: url(../../img/close-icon.png) no-repeat; }
+
+a.gigyaloginmessageclose span { display: none; }
+
+.gigya-loginmessage-accountactivated img { position: relative; top: 8px; right: 6px; }
+
+#wrapper .gigya-registration-main .gigya-layout-row .gigya-layout-cell .lnkTryAgain.access-continue.hide-field.secondsection { float: left; margin-top: -43px; margin-left: -1px; font-size: 16px; }
+
+.gigyaraas.richtext-overlay-hidden { display: none; }
+
+.gigyaraas.richtext-overlay-hidden h2 { width: 444px; height: 27px; font-family: Arial-MT,arial; font-size: 24px; font-weight: bold; color: #262626; margin-top: 11.4%; margin-left: 9.2%; margin-right: 9.2%; }
+
+.gigyaraas.richtext-overlay-hidden h3 { width: 444px; height: 48px; font-family: ArialMT,arial; font-size: 15px; line-height: 1.6; color: #333333; padding-top: 5px; margin-left: 9.2%; margin-right: 9.2%; }
+
+.gigyaraas.richtext-overlay-hidden p:last-child { width: 101px; height: 42px; border-radius: 100px; text-align: center; margin-top: 65px; position: relative; margin: auto; }
+
+.gigyaraas.richtext-overlay-hidden .Gigya-overlay-loading { margin: 0 auto; text-align: center; display: block; }
+
+.gigyaraas.richtext-overlay-hidden p a:hover, .gigyaraas.richtext-overlay-hidden .gigyaraas.richtext-overlay-hidden p a { float: none; clear: left; width: 53px; height: 17px; font-family: Arial-MT,arial; font-size: 16px; font-weight: bold; text-align: center; color: #ffffff; }
+
+.gigyaraas.richtext-overlay-hidden p img { max-width: 120px; margin: 0 auto; display: block; }
+
+/*kv-may24*/
+.gigya-overlay-loginmessage { width: 940px; margin-bottom: 0px; margin: 20px auto; border-top: solid 5px #52a349; background-color: #f0efed; position: relative; }
+
+.gigya-overlay-loginmessage .richText > .component-content > .richText-content p { font-family: 'ArialMT',arial; line-height: 24px; font-size: 15px; color: #72635d; padding-left: 0%; padding-right: 0%; width: 70%; float: right; }
+
+.gigya-overlay-loginmessage .richText > .component-content > .richText-content p .gigyaloginmessageheadings { font-family: Georgia; font-size: 18px; font-style: italic; width: 456px; /* display: block; */ float: left; padding-left: 28px; line-height: 28px; font-weight: normal; }
+
+.gigya-overlay-loginmessage .richText > .component-content > .richText-content p:first-child { font-family: Georgia; font-size: 18px; font-style: italic; color: #72635d; display: inline-block; width: 30%; height: auto; float: left; padding: 0px; margin-top: 4px; }
+
+.gigya-overlay-loginmessage .richText > .component-content > .richText-content p:first-child strong { font-family: Georgia; font-size: 18px; font-style: italic; width: 240px; float: left; padding-left: 28px; line-height: 28px; font-weight: normal; }
+
+#wrapper h2.gigya-composite-control-header { margin-top: 0px; }
+
+#wrapper .gigya-registration-main .gigyaraas.richtext-overlay-hidden p img { width: auto; height: auto; margin: 0 auto; display: block; }
+
+.gigya-screen input.gigya-input-text.gigya-error { background: #f7f7f7; border-radius: 0px; }
+
+#wrapper .gigya-screen select, #wrapper .gigya-screen input[type=text], #wrapper .gigya-screen input[type=password], #wrapper .gigya-screen input[type=email], #wrapper .gigya-screen a.gigya-button, #wrapper .gigya-screen.portrait div.gigya-tfa .gig-tfa-container .gigya-button.gig-tfa-phone-code-resend, #wrapper .gigya-screen textarea { background: #f7f7f7; border-radius: 0px; }
+
+.gigya-overlay-loginmessage { display: none; }
+
+.dropdown-be { display: block; }
+
+/* Login page */
+.gigya-login { margin: 0 auto; max-width: 580px; padding-top: 40px; background: #f0efed; margin-top: 40px; margin-bottom: 10px; box-sizing: border-box; }
+
+.gigya-login .gigya-composite-control-submit.log-in { float: none !important; }
+
+.gigya-login .gigya-screen.v2.landscape { min-height: auto !important; }
+
+.gigya-login .gigya-login-img { text-align: center; }
+
+.gigya-login .gigya-login-rt .component-content { margin: 0 auto; max-width: 460px; padding-top: 40px; }
+
+.gigya-login .gigya-login-rt h1 { color: #333333; font-size: 24px; line-height: 30px; }
+
+.gigya-login form { border-top: 2px solid #dfdfdf; padding-top: 30px; max-width: 460px; }
+
+.gigya-login .forgotten-password { border-bottom: 1px solid #ccc; color: #15717d; float: left; font-family: arial; font-size: 16px; font-weight: bold; padding-bottom: 20px !important; width: 100%; }
+
+.gigya-login .log-in { float: left; margin-top: 25px; }
+
+.gigya-login .register-account { background: #72635d none repeat scroll 0 0; border-top: 4px solid #d4d0ce; color: #ffffff; margin-bottom: 0; text-align: center; }
+
+.gigya-login .register-account a { border-bottom: 2px solid #ffffff; color: #ffffff; font-size: 16px; }
+
+.gigya-login .gigya-layout-cell.responsive.with-site-login { display: none; }
+
+.gigya-login .gigya-layout-cell.with-site-login { min-width: 100%; width: 100%; }
+
+.gigya-login .gigya-screen.v2.landscape { padding: 0; width: 460px; }
+
+#wrapper .gigya-login .gigya-screen input[type="text"], #wrapper .gigya-login .gigya-screen select { width: 100%; }
+
+#HCP-Login .gigya-screen input[type="text"], #HCP-Login .gigya-screen select { width: 100% !important; }
+
+/* .gigya-login .gigya-composite-control.gigya-composite-control-checkbox{ width: 100%; } */
+/* Login End */
+/* Report Adverse Event page */
+/* Arrow image */
+#wrapper .gigya-screen select { background: #f7f7f7 url("../../img/drop-down-green.png") no-repeat scroll 95% 50%; border: 1px solid #cac9c7; border-radius: 0; box-shadow: none; color: #72635d; font-size: 15px; height: 45px; width: 100%; -webkit-appearance: none; -moz-appearance: none; }
+
+.gigya-header { max-width: 940px; margin: 0 auto; padding-top: 20px; padding-bottom: 20px; }
+
+.rte-report-form-content .gigya-input-checkbox { float: left; margin-right: 10px; }
+
+.rte-report-form-content .gigya-layout-cell.responsive.with-divider, .rte-report-form-content .gigya-layout-cell.responsive.with-site-login { display: none; }
+
+.rte-report-form-content .gigya-layout-row.with-divider { float: left; }
+
+#wrapper .rte-report-form-content .gigya-label-text { font-weight: bold; }
+
+#wrapper .gigya-screen-content div.gigya-screen.landscape { width: auto; padding: 0px; padding-top: 10px; }
+
+/* Report Adverse Event page End */
+/* Registration Page */
+.gigya-registration-box .gigya-layout-cell.responsive.with-divider, .gigya-registration-box #register-site-login { display: none; }
+
+.gigya-registration-box .reg-continue { border: 2px solid #15717d; color: #ffffff; background: #15717d; border-radius: 30px; height: auto; width: auto; cursor: pointer; padding: 10px 20px; padding: 10px 5%; clear: right; display: inline-flex; margin-bottom: 30px; padding-bottom: 7px !important; text-align: right !important; left: 40%; position: relative; }
+
+.gigya-registration-box .reg-continue:hover, .gigya-registration-box .reg-continue:focus { background: #ffffff; color: #15717d !important; text-decoration: none; }
+
+#wrapper .gigya-registration-box .gigya-screen-content { max-width: 690px !important; float: right; }
+
+#wrapper .gigya-registration-box #register-social-login { width: 690px; }
+
+#wrapper .reg-header-one, #wrapper .reg-header-two, #wrapper .reg-header-three, #wrapper .reg-header-four { background: #f0efed; color: #72635d; line-height: 1; margin-bottom: 10px; font-size: 24px; padding: 20px 15px; }
+
+#wrapper .registration-header.active { background: #f36633; color: #ffffff; }
+
+#wrapper .reg-header-edit-one, #wrapper .reg-header-edit-two, #wrapper .reg-header-edit-three { float: right; padding: 3%; margin-top: -12%; }
+
+#wrapper .gigyaraas .reg-header-active { background-color: #f36633; color: #ffffff; }
+
+/* Gigya Contact us Page */
+#wrapper .gigya-label-text { font-weight: bold; }
+
+/* Gigya From Work */
+.gigya-header-box { background-color: #f0efed; }
+
+.gigya-header-box .gigya-registration-box { float: left; }
+
+.gigya-header-box .content { max-width: 940px; margin: 0 auto; }
+
+.gigya-registration-box ul, .gigya-registration-box ol { float: left; width: 32%; margin-bottom: 0px; }
+
+.gigya-registration-box ul li, .gigya-registration-box ol li { color: #72635D; font-size: 15px; margin-bottom: 0px; list-style-type: none !important; margin-left: 0px !important; }
+
+.gigya-registration-box ul li:nth-child(2), .gigya-registration-box ul li:nth-child(3), .gigya-registration-box ol li:nth-child(2), .gigya-registration-box ol li:nth-child(3) { padding-left: 20px; }
+
+.gigya-registration-box ul strong, .gigya-registration-box ol strong { background-image: url(../../img/registration-bullet.png); background-repeat: no-repeat; background-position: left 7px; margin: 0px; padding-left: 20px; line-height: 26px; }
+
+#wrapper .gigya-registration-box-content .gigya-title { max-width: 350px; }
+
+.gigya-registration-main { /*  Overlay  */ }
+
+.gigya-registration-main .overlay-main-content { max-width: 545px; background: #f0efed; position: absolute; top: 36%; opacity: 1; z-index: 2147483647; left: 0px; height: 403px; right: 0px; margin: 0 auto; }
+
+.gigya-registration-main .overlay-main-content a { float: right; top: 30px; position: absolute; right: 20px; }
+
+.gigya-registration-main .richtext-overlay-hidden p:first-child strong { font-size: 24px; float: left; width: 94%; text-align: left; padding-left: 40px; padding-top: 60px; }
+
+.gigya-registration-main .richtext-overlay-hidden p:last-child strong { float: left; padding-left: 40px; padding-top: 10px; padding-right: 90px; text-align: left; font-size: 16px; font-weight: normal; }
+
+.gigya-registration-main .gigyaraas.richtext-overlay-hidden h3 { font-weight: 200; width: 80%; }
+
+.gigya-registration-main .Gigya-overlay-btn { padding: 10px 16px; }
+
+.gigya-registration-main .overlay-main-content h2 { font-weight: bold !important; }
+
+.gigya-registration-main .richtext-overlay-hidden .access-continue { position: relative; left: 8px; }
+
+/* Gigya  registration page start new */
+#wrapper .gigya-registration-main .mobile-overlay ul li::before { content: '\2022'; display: block; position: relative; max-width: 0; max-height: 0; top: -5px; color: #f96300; left: -13px; position: relative; font-size: 20px; }
+
+#wrapper { /* .gigya-save-btn-spacer { border-top: 1px solid #c9c9c7; margin-top: -10px; }   */ /* Tab View */ /* Mobile */ }
+
+#wrapper .gigya-registration-main { /* check box img */ /* Content Check Box */ /* .gigya-screen select { width: 420px; }  */ /* 2nd section code */ /* Right side content */ /* .secondsection .gigya-label .gigya-label-text{ padding-left:20px; }  */ }
+
+#wrapper .gigya-registration-main h2, #wrapper .gigya-registration-main strong { font-size: 24px; color: #262626; line-height: 1; font-weight: 200; }
+
+#wrapper .gigya-registration-main .checkbox-image-reg { background-image: url(../../img/gigys-checkbox-image.jpg); width: 35px; height: 35px; margin-top: -6px; background-size: 100%; float: left; display: inline-table; cursor: pointer; flex: none; }
+
+#wrapper .gigya-registration-main .active-checkbox { background-image: url(../../img/gigys-checkbox-active.jpg); }
+
+#wrapper .gigya-registration-main .field-check-box input { width: 10px; height: 40px; margin-left: 0px; margin-top: -5px; opacity: 0; }
+
+#wrapper .gigya-registration-main .gigya-label-text { /*font-size: 15px; color: $brownish-grey; font-family: ArialMT,arial; line-height: 1.6; font-weight: 200;*/ font-family: Arial-MT,arial; font-size: 15px; font-weight: bold; color: #333333; /*   margin-left: 20px; */ }
+
+#wrapper .gigya-registration-main .mandatory-field p { width: 100%; height: 24px; font-family: ArialMT,arial; font-size: 15px; line-height: 1.6; color: #333333; position: relative; float: left; font-weight: normal; padding-bottom: 15px; display: block; }
+
+#wrapper .gigya-registration-main .mandatory-field p .mandatory-sub { font-size: 15px; line-height: 1.6; color: #ff0000; top: 0px; position: relative; }
+
+#wrapper .gigya-registration-main #register-social-login { min-width: 420px; width: auto; max-width: 420px; }
+
+#wrapper .gigya-registration-main .lblYourHeading.background-color { background: #f0efed url(../../img/personal-icon.png) no-repeat 20px 30px !important; font-weight: normal !important; padding-left: 50px; padding-top: 30px; }
+
+#wrapper .gigya-registration-main .lblYourHeading { background: url(../../img/personal-icon.png) no-repeat 20px 30px !important; font-weight: normal !important; padding-left: 50px; padding-top: 30px; }
+
+#wrapper .gigya-registration-main .gigya-layout-cell.with-divider { margin-top: 65px; width: 0px; min-width: 1px; border-right: 1px solid #f0efed; }
+
+#wrapper .gigya-registration-main .gigyalinks.access-continue.hide-field.lnkSave.secndsection.cancel-btn { background: none; border: 0px solid #ffffff; color: #15717d; font-weight: bold; font-size: 16px; }
+
+#wrapper .gigya-registration-main .gigya-label-text.gigya-checkbox-text { padding: 0px; font-weight: 100; }
+
+#wrapper .gigya-registration-main .Professional-continue, #wrapper .gigya-registration-main .access-continue { float: right; border: 2px solid #15717d; color: #ffffff; background: #15717d; border-radius: 30px; height: auto; width: auto; cursor: pointer; padding: 10px 20px; color: #ffffff; padding: 7px 4%; font-size: 16px; }
+
+#wrapper .gigya-registration-main .Professional-continue:hover, #wrapper .gigya-registration-main .Professional-continue:focus, #wrapper .gigya-registration-main .access-continue:hover, #wrapper .gigya-registration-main .access-continue:focus { background: #ffffff; color: #15717d !important; text-decoration: none; }
+
+#wrapper .gigya-registration-main .Legalstmt { position: relative; }
+
+#wrapper .gigya-registration-main .Legalstmt input { opacity: 0; }
+
+#wrapper .gigya-registration-main .Legalstmt .input[type="checkbox"] { opacity: 0; height: 16px; width: 17px; position: absolute; top: 0; left: 0; z-index: 2; }
+
+#wrapper .gigya-registration-main .Legalstmt input[type="checkbox"] + label { background: url(../../img/check-box.jpg) no-repeat 0px 0px; display: inline-block; padding: 0 0 0 10px; z-index: 1; cursor: pointer; position: relative; margin-left: -12px; padding-left: 0; }
+
+#wrapper .gigya-registration-main .Legalstmt input[type="checkbox"]:checked + label { background: url(../../img/chek-active.jpg) no-repeat 0px 0px; display: inline-block; padding: 0 0 0 10px; cursor: pointer; position: relative; margin-left: -12px; padding-left: 0; }
+
+#wrapper .gigya-registration-main .Legalstmt .gigya-label { position: absolute; padding-top: 2px; }
+
+#wrapper .gigya-registration-main .Legalstmt .gigya-label strong { font-size: 18px; font-weight: bold; padding-left: 25px; color: #72635d; }
+
+#wrapper .gigya-registration-main .gigya-cf-submitbtn.hide-field.secondsection.background-white .gigya-input-submit { font-size: 16px; float: right; }
+
+#wrapper .gigya-registration-main .gigya-layout-row .gigya-layout-cell .lnkTryAgain.access-continue.hide-field.secondsection { float: left; margin-top: 42px; margin-left: 10px; }
+
+#wrapper .gigya-registration-main .Legalstmt { width: 100%; margin-top: 20px; }
+
+#wrapper .gigya-registration-main .gigya-composite-control.gigya-spacer.footer-bg-color { padding-bottom: 60px; background: #f0efed none repeat scroll 0% 0%; margin-top: 0px; }
+
+#wrapper .gigya-registration-main .gigyalinks.access-continue.secndsection { float: left !important; margin-left: 20px; position: relative; z-index: 9; }
+
+#wrapper .gigya-registration-main .gigya-label.profileName { padding-left: 20px; }
+
+#wrapper .gigya-registration-main .gigya-registration-main .remove-background { background: #f2f2f2 url("../../img/drop-down-green.png") no-repeat scroll 95% 17px; }
+
+#wrapper .gigya-registration-main .remove-background { background: #f6f6f6; border: 1px solid #cac9c7; /*     width: 420px; */ width: 380px; margin-left: 20px; margin-bottom: 0px; box-shadow: inset 0px 0px 0px #ccc; /* 	margin-left: 20px; */ margin-bottom: 20px; }
+
+#wrapper .gigya-registration-main .off-width .remove-background { background: none; border: 0px solid #cac9c7; width: auto; margin-bottom: 0px; box-shadow: inset 0 0 0px #000000; border-radius: 0px; }
+
+#wrapper .gigya-registration-main .off-width .remove-background input.gigya-input-text { padding-left: 0px; margin-left: -5px; }
+
+#wrapper .gigya-registration-main .off-width .remove-background.gigya-input-text { padding-left: 23px; margin-left: -5px; width: auto; float: left; }
+
+#wrapper .gigya-registration-main .off-width select.remove-background { padding-left: 25px; margin-left: -8px; float: left; width: 100%; margin-top: -10px; margin-bottom: -10px; position: relative; z-index: 9; }
+
+#wrapper .gigya-registration-main .returned-match { background: #ffffff !important; }
+
+#wrapper .gigya-registration-main .Nomatchheader strong { display: inline-block; margin-bottom: 20px; font-size: 16px; line-height: 1.2; }
+
+#wrapper .gigya-registration-main #register-site-login { max-width: 400px; width: auto; border: 1px solid #f0efed; margin-top: 65px; padding-bottom: 20px; }
+
+#wrapper .gigya-registration-main #register-site-login h3 { margin-left: 25px; font-size: 15px; color: #72635d; }
+
+#wrapper .gigya-registration-main #register-site-login p { color: #72635d; margin-left: 25px; padding-right: 20px; line-height: 1.6; }
+
+#wrapper .gigya-registration-main #register-site-login .create-account-active { background: #f0efed; border-left: 6px solid #F36632; color: #333; font-weight: initial !important; }
+
+#wrapper .gigya-registration-main #register-site-login .create-account-title, #wrapper .gigya-registration-main #register-site-login .professional-title { padding-top: 20px; color: #c8c8c7; font-size: 18.0px; font-style: normal; font-stretch: normal; border-left: 6px solid #f0efed; padding-left: 20px; border-top: 1px solid #f0efed; border-right: 1px solid #f0efed; border-bottom: 1px solid #f0efed; }
+
+#wrapper .gigya-registration-main #register-site-login .create-account-active { background: #f0efed; border-left: 6px solid #F36632; color: #333; font-weight: initial !important; }
+
+#wrapper .gigya-registration-main #register-site-login .create-account-active:before { color: #f36633 !important; border: 1px solid #f36633 !important; }
+
+#wrapper .gigya-registration-main #register-site-login .create-account-title:before { content: "1"; margin-right: 10px; color: #C8C8C7; font-size: 15.0px; border: 1px solid #C8C8C7; border-radius: 20px; padding: 8px 12px; }
+
+#wrapper .gigya-registration-main #register-site-login .professional-title::before { content: "2"; margin-right: 10px; color: #C8C8C7; font-size: 15.0px; border: 1px solid #C8C8C7; border-radius: 20px; padding: 8px 12px; }
+
+#wrapper .gigya-registration-main #register-site-login .create-account-active, #wrapper .gigya-registration-main #register-site-login .professional-title { padding-left: 65px; position: relative; }
+
+#wrapper .gigya-registration-main #register-site-login .create-account-active:before, #wrapper .gigya-registration-main #register-site-login .professional-title:before { position: absolute; left: 20px; height: 35px; top: 50%; margin-top: -20px; }
+
+#wrapper .gigya-registration-main #register-site-login .register-text { margin-top: 40px; background-image: url(../../img/enlarge-info.png); background-repeat: no-repeat; background-position: 0px 0px; margin-left: 25px; padding-left: 40px; font-size: 18px; color: #72635d; padding-top: 6px; }
+
+#wrapper .gigya-registration-main #register-site-login .Legalstmt { width: 100%; margin-top: 0px; float: left; }
+
+#wrapper .gigya-registration-main #register-site-login .rht-text p { font-size: 15px; color: #72635d; padding-right: 20px; line-height: 1.6; width: 88%; }
+
+#wrapper .gigya-registration-main #register-site-login .rht-text ul { margin-left: 35px; margin-top: 10px; }
+
+#wrapper .gigya-registration-main #register-site-login .rht-text ul li:before { content: '\2022'; display: block; position: relative; max-width: 0; max-height: 0; top: -5px; color: #f96300; left: -20px; position: relative; font-size: 20px; }
+
+#wrapper .gigya-registration-main #register-site-login .rht-text ul li { color: #72635d; margin-left: 10px; padding-left: 10px; list-style-type: none; padding-right: 20px; }
+
+#wrapper .gigya-registration-main #register-site-login .show-test ol { margin-left: 40px; margin-top: 10px; }
+
+#wrapper .gigya-registration-main #register-site-login .show-test ol li { color: #f96300; padding-right: 20px; padding-left: 5px; line-height: 1.7; }
+
+#wrapper .gigya-registration-main #register-site-login .show-test ol li span { color: #72635d; }
+
+#wrapper .gigya-registration-main #register-site-login .gigya-composite-control.gigya-composite-control-label.show-test.create-account { margin-bottom: 0px; float: left; width: 100%; }
+
+#wrapper .gigya-registration-main #register-site-login .gigya-composite-control.gigya-composite-control-label.hide-field.noaccesscode-professional.infotext { padding-bottom: 20px; float: left; }
+
+#wrapper .gigya-registration-main #register-site-login .gigya-composite-control.gigya-composite-control-label.show-test h3 { font-size: 18px !important; }
+
+#wrapper .gigya-registration-main #register-site-login .editpanel { padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 0px !important; }
+
+#wrapper .gigya-registration-main .gigya-hr-line { border-top: 1px solid #c9c9c7; margin-top: 30px; }
+
+#wrapper .gigya-registration-main .gigylinks.profileEdit { background: #f0efed url("../../img/edit-icon.png") no-repeat 0px 0px !important; color: #105D6A !important; float: right; width: auto; text-align: right; margin-top: -44px; position: relative; padding-right: 25px; padding-left: 20px; cursor: pointer; }
+
+@media only screen and (min-width: 768px) and (max-width: 989px) { #wrapper .box.component.section.grid_4.omega.odd.last.from-rhs-box.initialized { width: 30%; }
+  #wrapper .gigya-overlay-loginmessage { width: 90%; margin-bottom: 0px; margin: 20px auto; border-top: solid 5px #52a349; background-color: #f0efed; }
+  #wrapper .gigya-screen.portrait { width: auto; padding-left: 20px; padding-top: 0px; padding-right: 20px; }
+  #wrapper #wrapper .gigya-registration-main #register-social-login { min-width: 320px; width: auto; max-width: 320px; }
+  #wrapper .gigya-screen select { width: 100%; }
+  #wrapper #register-site-login .professional-title { font-size: 16px; }
+  #wrapper .gigya-registration-main #register-site-login { border-left: 1px solid #f2f2f2; padding-left: 15px; margin-top: 0px; margin-left: 10px; width: 51% !important; }
+  #wrapper .gigya-registration-main .gigya-screen.portrait .gigya-layout-row .gigya-layout-cell.responsive, #wrapper .gigya-registration-main .gigya-screen.portrait .gigya-layout-row.with-divider .gigya-layout-cell.responsive { float: left; min-width: 44% !important; width: 45% !important; }
+  #wrapper .gigya-layout-cell.responsive.with-divider { margin-top: 30px; width: 0px; border-right: 0px solid #f2f2f2; min-width: auto; }
+  #wrapper .gigya-registration-main h2, #wrapper .gigya-registration-main .strong { font-size: 18px; }
+  #wrapper .rte-form-header h1 { font-size: 29px; }
+  #wrapper .image-registration-logo { margin-top: 0px; width: 17% !important; }
+  #wrapper .image-registration-logo .component-content.right { float: right; width: 50%; } }
+
+@media only screen and (max-width: 767px) { #wrapper .gigya-overlay-loginmessage { width: 90%; margin-bottom: 0px; margin: 20px auto; border-top: solid 5px #52a349; background-color: #f0efed; }
+  #wrapper .image-registration-logo { width: auto; float: right; /* Defect fix - HCPDT-2642 */ }
+  #wrapper #register-site-login { display: none; }
+  #wrapper .gigya-layout-cell.responsive.with-divider { display: none; } }
+
+#wrapper .cancel-btn { background: none !important; color: #15717d !important; border: 0px solid #ffffff !important; font-weight: bold !important; font-size: 16px; padding: 9px; }
+
+/*HCPEDT-1793 #wrapper .box-header-links { width: 100%; } */
+/* Registration header fix */
+#wrapper .box-header-links.registration-header-top.registration-test { width: 100%; }
+
+/* Top */
+#wrapper .rte-bullets-registration { margin: 0px; padding: 0px; }
+
+#wrapper .rte-bullets-registration ul { margin: 0px; padding: 0px; }
+
+#wrapper .rte-bullets-registration ul li strong { font-weight: bold; color: #72635d; font-size: 15px; }
+
+#wrapper .gigya-latest-updates ul li { background-image: url(../../img/Icon-latest-updates.png); background-repeat: no-repeat; background-size: 14% 100%; padding-left: 40px; list-style-type: none; background-position: left center; }
+
+#wrapper .gigya-events.rte-bullets-registration ul li { background-image: url(../../img/icon-industry-events.png); background-repeat: no-repeat; background-size: 10%; padding-left: 40px; list-style-type: none; background-position: left center; }
+
+#wrapper .gigya-resources.rte-bullets-registration ul li { background-image: url(../../img/icon-resources.png); background-repeat: no-repeat; background-size: 10%; padding-left: 40px; list-style-type: none; background-position: left center; }
+
+.image-registration-logo .component-content.right { float: right; width: 50%; }
+
+.from-rhs-box { border-left: 1px solid #d5d0cd; margin-left: 0px !important; padding-left: 20px; }
+
+.gigya-overlay-loginmessage { display: none; }
+
+#wrapper .gigya-registration-main select.remove-background { background: #ffffff url("../../img/drop-down-green.png") no-repeat scroll 95% 8px; padding-left: 7px; }
+
+#wrapper .mandatory-star { color: #ff0000; margin-left: 2px; }
+
+#wrapper .gigya-registration-main .infotext { font-size: 18px; line-height: 1.2; }
+
+.gigya-composite-control.gigya-composite-control-label.hide-field.accesscode.infotext { padding-bottom: 15px; float: left; }
+
+/* Mobile */
+#wrapper .gigya-mobile-registration { display: none; }
+
+.gigya-mobile-registration #register-social-login { display: none; }
+
+.gigya-mobile-registration .gigya-layout-cell.responsive.with-divider { display: none; }
+
+.gigya-mobile-registration .mobile-overlay { display: none; }
+
+#wrapper #register-site-login .account-edit { color: #105d6b; font-weight: bold; text-decoration: underline; font-size: 10px; cursor: pointer; display: none; vertical-align: middle; padding-left: 5px; }
+
+.Legalstmt p { padding-left: 33px; padding-top: 14px; }
+
+@media only screen and (max-width: 767px) { #wrapper .gigya-mobile-registration { display: block; }
+  #wrapper .gigya-mobile-registration #register-site-login { display: block; }
+  #wrapper .mandatory-field.professional.accesscode.noaccesscode-professional { display: none !important; }
+  .gigya-registration-main .gigya-screen.portrait { padding-top: 0px; }
+  #wrapper .gigya-registration-main #register-site-login .register-text { margin-top: 25px; background-position: 30px 12px; margin-left: 0px; padding-left: 70px; padding-top: 18px; border: 1px solid #f0efed; padding-bottom: 18px; cursor: pointer; }
+  #wrapper .gigya-registration-main #register-site-login .professional-title { border-left: 6px solid #c8c8c7 !important; border: 1px solid #c8c8c7; font-size: 16px !important; }
+  #wrapper .gigya-registration-main #register-site-login .create-account-active { border-left: 6px solid #F36632 !important; font-size: 16px !important; }
+  .gigya-registration-main .gigya-screen.portrait { width: auto; max-width: 520px !important; min-width: auto; }
+  #wrapper .mb-mandatory-field p { margin-left: 0px !important; padding: 0px; font-size: 15px; color: #333333 !important; line-height: 1.6; }
+  #wrapper .image-registration-logo img { width: 77px; position: absolute; right: 21px; }
+  .rte-form-header h1 { font-size: 24px; width: auto; }
+  #wrapper .rte-form-header { width: 100%; }
+  .rte-form-header .component-content { width: 80%; }
+  .from-rhs-box { border-left: 0px solid #d5d0cd; padding-left: 4px; border-top: 1px solid #d5d0cd; padding-top: 20px; }
+  .rte-bullets-registration ul li { padding-left: 45px !important; }
+  .gigya-registration-main .gigya-screen.portrait.mobile { padding-top: 0px; padding-bottom: 0px; }
+  #wrapper .gigya-latest-updates ul li, #wrapper .gigya-events.rte-bullets-registration ul li, #wrapper .gigya-resources.rte-bullets-registration ul li { background-size: 3%; }
+  .mobile-overlay-over { position: fixed; top: 0; background: #f0efed; max-width: none; margin: 0 auto; left: 0px; right: 0px; padding-left: 5%; padding-right: 5%; padding-bottom: 40px; height: 100%; z-index: 999; overflow-y: scroll; overflow-x: hidden; width: 90%; }
+  .mobile-overlay-background { background: #000; width: 100%; height: 100%; position: absolute; top: 0px; opacity: 0.6; }
+  .mobile-done.mobile-overlay { background: #00707e; color: #ffffff; padding: 10px 20px; border-radius: 60px; width: 88%; margin-bottom: 10%; float: left; text-align: center; font-size: 16px; }
+  .gigya-composite-control.gigya-composite-control-link.mobile-close.mobile-overlay { width: 100%; float: left; height: 50px; padding-top: 20px; float: right; text-align: right; background: url("../../img/close-icon.png") no-repeat; background-position: right; }
+  #wrapper .mobile-overlay ol, #wrapper .mobile-overlay ul { margin-left: 20px; padding-left: 0px; }
+  #wrapper .mobile-overlay ol li { list-style-type: inherit; font-size: 15px; line-height: 24px; color: #72635d; }
+  #wrapper .mobile-overlay ul li { list-style-type: none; font-size: 15px; line-height: 24px; color: #72635d; }
+  #wrapper .gigya-registration-main .mobile-register-icon { margin-top: 15px; background-image: url(../../img/enlarge-info.png); background-repeat: no-repeat; background-position: 0px 0px; margin-left: 0px; padding-left: 40px; font-size: 18px; color: #72635d; float: left; width: 100%; line-height: 1.8; padding-bottom: 10px; }
+  #wrapper .mobile-overlay p { font-size: 15px; line-height: 24px; color: #72635d; }
+  #wrapper .mobile-overlay h3 { font-size: 15px; line-height: 1.2; font-weight: bold; color: #544f40; }
+  #wrapper .mobile-overlay ol li { color: #f96300; }
+  #wrapper .mobile-overlay ol li span { color: #72635d; }
+  #wrapper .gigya-registration-main #register-site-login { border: 0px solid #f0efed; }
+  .gigya-registration-main .overlay-main-content { max-width: none; top: 0%; height: 100%; padding-top: 20%; width: 100% !important; }
+  #wrapper .gigya-registration-main .gigyaraas.richtext-overlay-hidden h2, #wrapper .gigya-registration-main .gigyaraas.richtext-overlay-hidden h3 { width: auto; }
+  .mb-mandatory-field.mandatory-field { display: block !important; }
+  #wrapper .gigya-registration-main .gigya-label.profileName { float: left; margin-top: 10px; }
+  .gigyaraas.richtext-overlay-hidden p:last-child { width: auto; }
+  #wrapper .gigya-registration-main .access-continue { right: 0; position: relative; width: 75%; float: none; display: inline-block; text-align: center !important; }
+  #wrapper .gigya-registration-main .gigya-cf-submitbtn.hide-field.secondsection.background-white .gigya-input-submit { font-size: 16px; width: 80%; float: left; margin-left: 9px; }
+  #wrapper .gigya-registration-main .gigya-layout-row .gigya-layout-cell .lnkTryAgain.access-continue.hide-field.secondsection { float: none; margin-top: 20px; margin-left: 0px; width: 83%; }
+  #wrapper .gigya-screen .gigya-layout-cell .gigya-layout-cell { max-width: 100%; min-width: 80%; }
+  #wrapper .gigya-registration-main .gigya-composite-control.gigya-spacer.footer-bg-color { padding-bottom: 100px; }
+  #wrapper .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-dropdown .gigya-label, #wrapper .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-textbox .gigya-label, #wrapper .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-password .gigya-label { float: left; width: 100%; margin-top: 0px; }
+  #wrapper .gigya-registration-main .lblYourHeading.background-color { padding-bottom: 50px; }
+  #wrapper .gigya-registration-main #register-site-login .register-text { font-size: 16px !important; }
+  #wrapper .gigya-registration-main .gigya-label-text { font-weight: initial; }
+  .gigya-screen.portrait.mobile { padding-bottom: 0px; }
+  #wrapper .gigya-registration-main #register-site-login { margin-top: 0px; padding-bottom: 0px; }
+  #wrapper .gigya-registration-main .mb-mandatory-field.mandatory-field.mobile-overlay { padding-bottom: 40px; }
+  #wrapper .gigya-overlay-loginmessage .richText > .component-content > .richText-content p:first-child { width: auto; height: auto; }
+  #wrapper .gigya-overlay-loginmessage .richText > .component-content > .richText-content p .gigyaloginmessageheadings { width: auto; padding-right: 19px; float: left; padding-left: 0px; }
+  .gigya-overlay-loginmessage .richText > .component-content > .richText-content p:first-child strong { padding-left: 9px; }
+  .gigya-overlay-loginmessage .richText > .component-content > .richText-content p { line-height: 1.6; font-size: 15px; width: auto; float: left; margin-top: 5px; margin-bottom: 5px; text-align: left; }
+  #wrapper .gigya-screen-dimmer { width: 100% !important; }
+  #wrapper .rte-bullets-registration ul li { line-height: 36px; margin-bottom: 5px; margin-top: 5px; }
+  .gigya-registration-main .gigya-composite-control.gigya-composite-control-submit.gigya-cf-submitbtn.hide-field.secondsection.background-white { float: left; width: 100%; } }
+
+/* Mobile END */
+#wrapper .ciam-link-button { background-color: #15717D; padding: 10px 20px; box-sizing: border-box; border-radius: 30px; text-align: center; cursor: pointer; height: 46px; width: auto; font-size: 15px; font-weight: bold; color: #ffffff !important; }
+
+#wrapper .ciam-link-button:hover { background-color: #ffffff; padding: 10px 20px; box-sizing: border-box; border-radius: 30px; text-align: center; cursor: pointer; height: 46px; width: auto; font-size: 15px; font-weight: bold; color: #15717D !important; border: 2px solid #15717D; color: #15717D; text-decoration: none; }
+
+@media only screen and (max-width: 568px) { .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-dropdown input, .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-dropdown select, .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-textbox input, .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-textbox select, .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-password input, .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-password select { max-width: 340px; }
+  .gigya-registration-main .gigya-registration-main .overlay-main-content { padding-top: 15%; }
+  .gigya-registration-main .editpanel-first-name { float: left; width: 100%; margin-top: -5px; }
+  #wrapper .gigya-latest-updates ul li, #wrapper .gigya-events.rte-bullets-registration ul li, #wrapper .gigya-resources.rte-bullets-registration ul li { background-size: 11%; } }
+
+@media only screen and (max-width: 400px) { #wrapper .gigya-registration-main #register-site-login .professional-title, #wrapper .gigya-registration-main #register-site-login .create-account-title { font-size: 14px; }
+  #wrapper .gigya-registration-main #register-social-login { min-width: 100%; width: auto; max-width: 100%; }
+  #wrapper .gigya-registration-main .lblYourHeading.background-color strong { float: left; margin-right: 35%; margin-bottom: 5px; }
+  #wrapper .gigya-registration-main .remove-background { width: 88%; }
+  #wrapper .gigya-registration-main .gigya-label-text { margin-left: 0px; }
+  #wrapper .gigya-registration-main .overlay-main-content { padding-top: 120%; }
+  #wrapper .gigya-registration-main #register-site-login .register-text { background-position: 26px 12px; padding-left: 60px; } }
+
+@media only screen and (min-width: 400px) and (max-width: 500px) { #wrapper .gigya-registration-main .gigya-layout-row .gigya-layout-cell .lnkTryAgain.access-continue.hide-field.secondsection { margin-left: -10px; }
+  #wrapper .gigya-registration-main #register-social-login { min-width: 360px; max-width: 360px; }
+  #wrapper .gigya-registration-main .Legalstmt p { padding-left: 33px; padding-top: 0px; padding-right: 5px; }
+  #wrapper .gigya-registration-main .gigylinks.profileEdit { margin-top: -66px; } }
+
+@media only screen and (max-width: 320px) { .gigya-registration-main .overlay-main-content { padding-top: 170%; }
+  .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-dropdown input, .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-dropdown select, .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-textbox input, .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-textbox select, .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-password input, .gigya-registration-main .gigya-screen .gigya-composite-control.gigya-composite-control-password select { max-width: 280px; }
+  #wrapper .gigya-registration-main #register-site-login .professional-title, #wrapper .gigya-registration-main #register-site-login .create-account-title { font-size: 13px; }
+  #wrapper .gigya-registration-main #register-site-login .register-text { background-position: 13px 12px; padding-left: 50px; } }
+
+.ciam-generic.ciam-background #ciam-delete-account .gigya-label .gigya-label-text.gigya-checkbox-text { position: relative; top: -4px; }
+
+.gigya-overlay-loginmessage .richText { display: block; padding: 30px; }
+
+#wrapper .gigya-composite-control.gigya-composite-control-header.gigya-title.hide-field.firstsection.secondsection.checkcondition { display: none !important; }
+
+.gigya-save-btn-space { background: #f0efed; height: 50px; }
+
+span.gigya-hints { font-size: 14px; line-height: 1.71; color: #f96300; margin: 0px 0px 12px; display: block; }
+
+.gigya-screen .gigya-composite-control.gigya-composite-control-header { padding-top: 20px; }
+
+#wrapper input.gigya-error, #wrapper select.gigya-error { border: 3px solid #ba1977; }
+
+.gigya-loginmessage-almostcomplete p a, .mv-doubleoptin-logout p a { text-decoration: underline; margin-top: -30px !important; float: left; }
+
+.gigya-overlay-loginmessage.gigya-Mvborder { border-top: solid 5px #15717d; background-color: #f0efed; }
+
+#wrapper .secondsection.Legalstmt.footer-line-bg { border-bottom: 1px solid #c9c9c7; height: 10px; margin: 0px; padding: 0px; padding-top: 20px; }
+
+/* Loading icon */
+.gigya-style-modern div.gigya-screen-loader { position: absolute; background: url("../../img/loader-white.gif") center center no-repeat !important; min-height: 300px; min-width: 300px; }
+
+div.gigya-screen-loader { position: absolute; background: url("../../img/loader-white.gif") center center no-repeat !important; min-height: 300px; min-width: 300px; }
+
+/* Import statement to inclide gigya generic CSS - given by Adam team for GIGYA FORMS */
+/* -------------------- */
+/* Gigya form utilities */
+/* -------------------- */
+#wrapper div.main div.gigyaraas { margin-bottom: 10px; overflow: hidden; }
+
+#wrapper div.main div.gigyaraas * { box-sizing: border-box; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen { /* Form Header */ /* Form paragraph */ /* Form hyperlink */ /* Form red labeled text */ /* Form dropdown */ /* Image float */ /* Other form custimizations */ /* Form divider */ }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-header { font-size: 24px; color: #323131; line-height: 30px; margin: 0 30px 10px; padding: 0; text-align: left; font-weight: bold; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-label { line-height: 1.5; font-size: 15px; text-align: left; color: #72635d; padding-bottom: 10px; display: block; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-link, #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .ciam-edit { color: #15717d; font-size: 16px; font-weight: bold; display: block; padding-bottom: 18px; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .ciam-mandatory { color: #F36633; font-size: 14px; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .ciam-floatright { float: right; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-dropdown select { background: #ffffff url(../../img/drop-down-green.png) no-repeat scroll 97%; padding: 0 5px; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-dropdown select.gigya-error { border: 3px solid #ba1977; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-dropdown select::-ms-expand { display: none; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-dropdown select:focus { border-width: 3px; border-color: #d4d0ce; transition: 0.2s; outline: none; box-shadow: none; }
+
+@media only screen and (max-width: 767px) { #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-image:not(.ciam-img-float) { width: 77px; float: right; margin-top: -15px; padding-bottom: 0; }
+  #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-image:not(.ciam-img-float) ~ label { padding-top: 10px; }
+  #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-image:not(.ciam-img-float) .gigya-image { max-width: 100%; height: 55px !important; } }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .ciam-img-float { float: left; padding: 2px 10px 0 0; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-error-msg-active { text-align: left; background: url(../../img/error-message-icon.png); background-repeat: no-repeat; background-position: 0; background-size: 16px 16px; padding: 10px 0; color: #ba1977; font-family: arial; font-size: 14px; clear: both; font-weight: normal; border: none; float: none; margin: 0; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-required-display { vertical-align: super; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-error-display-active + .gigya-composite-control > input { border: 3px solid #ba1977; background-color: #fff; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-layout-row, #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-layout-ro { text-align: left; position: relative; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-layout-row .gigya-label, #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-layout-ro .gigya-label { flex: auto; margin-top: auto; margin-bottom: auto; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-submit { display: inline-block; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .ciam-cancel { display: inline-block; margin-left: 15px; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-ciam-error { border: 3px solid #ba1977; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .ciam-edit { font-size: 15px; position: absolute; right: 0; top: 0; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .ciam-edit:before { content: ''; background: url(../../img/edit-small-icon.png); background-position: 0 4px; background-repeat: no-repeat; padding-left: 15px; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .ciam-divider { background: #dfdfdd; padding: 0; margin-bottom: 17px; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .ciam-white-divider { background: #fff; padding: 0; margin: 10px 0 20px; margin-left: -200px; width: 1000px; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-label .gigya-label-text { color: #333333; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-label .gigya-label-text:hover { cursor: pointer; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-multi-choice div:nth-of-type(2) label { margin-top: 10px; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-multi-choice .gigya-multi-choice-item { display: block; position: relative; padding-top: 0; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-multi-choice .gigya-multi-choice-item label { display: inline-block; margin-top: auto; margin-bottom: auto; margin-left: 0; width: auto; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="text"], #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="password"] { background-color: #fff; transition: 0.2s; font-size: 12px; box-shadow: none; color: #d4d0ce; margin-bottom: 0px; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="text"]:focus, #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="password"]:focus { border-width: 3px; border-color: #d4d0ce; transition: 0.2s; outline: none; box-shadow: none; color: black; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-checkbox { position: relative; border: 1px solid transparent; padding: 0 !important; right: 0; margin-bottom: 0; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-composite-control-checkbox.gigya-terms-error { border: 1px solid #dd4b39; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-input-submit { padding: 8px 30px; font-weight: bold; margin: 0; display: inline-block; color: #fff; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-input-submit a { color: #fff; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen .gigya-input-submit:hover { background: #fff !important; border: 2px solid #15717d !important; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="checkbox"], #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="radio"] { width: 28px; height: 26px; margin: 5px 0; padding: 0; opacity: 0; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="checkbox"]:checked + label:before, #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="radio"]:checked + label:before { content: url("../../img/tick.png"); text-align: center; color: #15717d; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="checkbox"][aria-required=true] + label .gigya-checkbox-text:after, #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="radio"][aria-required=true] + label .gigya-checkbox-text:after { content: '*'; color: #e76468; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="checkbox"] + label:before, #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="radio"] + label:before { content: ' '; display: inline-block; padding: 6px; line-height: 12px; border: 1px solid #cac9c7; height: 25px; width: 25px; background: #fff; position: absolute; left: 0; top: 0; margin-top: auto; margin-bottom: auto; bottom: 0; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="checkbox"] + label .gigya-checkbox-text, #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="radio"] + label .gigya-checkbox-text { display: inline-block; font-weight: normal; color: #333333; padding: 0 20px 0 0; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="checkbox"] + label .gigya-checkbox-text a, #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="radio"] + label .gigya-checkbox-text a { color: #15717d; font-weight: bold; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="checkbox"] + label .gigya-checkbox-text a:hover, #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="radio"] + label .gigya-checkbox-text a:hover { text-decoration: none; color: #15717d; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="checkbox"] + label .gigya-required-display, #wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="radio"] + label .gigya-required-display { display: none; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="radio"] + label:before { border-radius: 100%; margin-top: auto; margin-bottom: auto; font-size: 27px; padding: 4px; }
+
+#wrapper div.main div.gigyaraas.ciam-generic div.gigya-screen-content .gigya-screen input[type="radio"]:checked + label:before { content: url("../../img/dot.png"); }
+
+#wrapper div.main div.gigyaraas.ciam-margin-bottom div.gigya-screen-content .gigya-screen { margin-bottom: 50px; }
+
+@media only screen and (max-width: 767px) { #wrapper div.main div.gigyaraas.ciam-background div.gigya-screen-content { padding: 0 15px; } }
+
+#wrapper div.main div.gigyaraas.ciam-background div.gigya-screen-content .gigya-screen { background-color: #F0EFED; position: relative; width: 100%; margin-top: 35px; /* Agreed with TJ to make it consistent */ padding: 20px; }
+
+#wrapper div.main div.gigyaraas.ciam-no-background div.gigya-screen-content .gigya-screen { margin: 0; width: 100%; padding: 20px 0; }
+
+#wrapper div.main div.gigyaraas.ciam-middle div.gigya-screen-content .gigya-screen { max-width: 580px; }
+
+#wrapper div.main div.gigyaraas.ciam-middle div.gigya-screen-content .gigya-screen > form { max-width: 340px; margin: 0 auto; }
+
+#wrapper div.main div.gigyaraas.ciam-login div.gigya-screen-content .gigya-screen { padding: 40px 20px 70px; }
+
+@media only screen and (max-width: 767px) { #wrapper div.main div.gigyaraas.ciam-login div.gigya-screen-content .gigya-screen { padding: 40px 20px 90px; } }
+
+#wrapper div.main div.gigyaraas.ciam-login div.gigya-screen-content .gigya-screen .gigya-layout-row { position: static; }
+
+#wrapper div.main div.gigyaraas.ciam-login div.gigya-screen-content .gigya-screen .gigya-layout-row input[type="checkbox"] + label:before { top: 0; margin-top: 3px; }
+
+#wrapper div.main div.gigyaraas.ciam-login div.gigya-screen-content .gigya-screen .gigya-valid.gigya-show-checkmark { padding-right: 0 !important; }
+
+@media only screen and (max-width: 767px) { #wrapper div.main div.gigyaraas.ciam-login div.gigya-screen-content .gigya-screen .gigya-composite-control-submit { display: block; }
+  #wrapper div.main div.gigyaraas.ciam-login div.gigya-screen-content .gigya-screen .gigya-composite-control-submit .gigya-input-submit { width: 100%; } }
+
+#wrapper div.main div.gigyaraas.ciam-login div.gigya-screen-content .gigya-screen .ciam-secondary-background { background-color: #72635d; position: absolute; bottom: 0; left: 0; width: 100%; border-top: 4px solid #dfdfdd; padding: 18px 0; box-sizing: border-box; }
+
+@media only screen and (max-width: 767px) { #wrapper div.main div.gigyaraas.ciam-login div.gigya-screen-content .gigya-screen .ciam-secondary-background { padding: 18px 20px; } }
+
+#wrapper div.main div.gigyaraas.ciam-login div.gigya-screen-content .gigya-screen .ciam-secondary-background p { max-width: 340px; margin: 0 auto; color: #fff; font-size: 16px; }
+
+#wrapper div.main div.gigyaraas.ciam-login div.gigya-screen-content .gigya-screen .ciam-secondary-background p a { color: #fff; text-decoration: underline; font-weight: bold; font-size: 16px; }
+
+#wrapper div.main div.gigyaraas.ciam-account div.gigya-screen-content .gigya-screen input[type="text"], #wrapper div.main div.gigyaraas.ciam-account div.gigya-screen-content .gigya-screen input[type="password"] { background-color: #F0EFED; color: #333333; border: none; box-shadow: none; font-weight: bold; font-size: 15px; margin: 0; height: 30px; padding: 0; }
+
+#wrapper div.main div.gigyaraas.ciam-account div.gigya-screen-content .gigya-screen .gigya-error-msg { display: none; }
+
+#wrapper div.main div.gigyaraas.ciam-account div.gigya-screen-content .gigya-screen .gigya-label { padding: 0; }
+
+#wrapper div.main div.gigyaraas.ciam-account div.gigya-screen-content .gigya-screen .gigya-label .gigya-label-text { padding: 0; color: #333333; font-weight: normal; }
+
+#wrapper div.main div.gigyaraas.ciam-account div.gigya-screen-content .gigya-screen .gigya-label .gigya-label-text:hover { cursor: auto; }
+
+#wrapper div.main div.gigyaraas.ciam-account div.gigya-screen-content .gigya-screen .ciam-profession, #wrapper div.main div.gigyaraas.ciam-account div.gigya-screen-content .gigya-screen .ciam-speciality { display: none; }
+
+#wrapper .richtext-overlay-hidden h4 { background: url("../../img/loader-white.gif") center center no-repeat; font-weight: 100; padding-left: 0; padding-top: 30px; padding-bottom: 0px; }
+
+.gigya-composite-control.gigya-composite-control-submit.gigya-cf-submitbtn.hide-field.secondsection.background-white { float: right; }
+
+.firstsection.secondsection.noaccesscode-professional.editpanel.off-width { display: none !important; }
+
+/* .secondsection.noaccesscode-professional.firstsection.editpanel.off-width { display: none !important; } */
+.manualinfotext.hideform { margin-bottom: 20px; float: left; }
+
+.gigya-registration-main .ui-state-active { background: #fff; font-weight: 100; }
+
+#wrapper .gigyaraas.richtext-overlay-hidden { display: none; }
+
+#wrapper .gigya-registration-main { min-height: 300px; }
+
+/*  899 */
+#wrapper .ciam-margin-top .gigya-cf-submitbtn.hide-field .gigya-input-submit { margin-top: 10px; }
+
+.registration-header-top { max-width: 1366px; }
+
+.header-zoom-top { max-width: 980px; }
+
+.report-adverse-event-header { max-width: 980px; }
+
+select::-ms-expand { display: none; }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { #wrapper .userbox-header .logged-out .nav-mobile { margin-top: -22px; }
+  #wrapper .gigya-registration-main .overlay-main-content { top: 36%; left: 35%; right: 35%; }
+  #wrapper .gigya-registration-main select.remove-background { background-position: 95% 7px; } }
+
+.gigya-share-this-page { position: relative; top: 0; left: 0; }
+
+.gigya-share-this-page.box-header-description.box-grey-header-links .gigya-raas-link { margin-top: 0px; position: relative; }
+
+.gigya-share-this-page .gigya-raas-link { background: url(../../img/share-icon.png); background-repeat: no-repeat; padding-left: 22px; background-position: 0px 4px; font-weight: bold; color: #15717e; font-size: 18px; text-decoration: none; }
+
+.box-last-updated-share-this-page.gigya-share-this-page .gigya-raas-link { top: 0px; position: relative; }
+
+.box-last-updated-share-this-page.gigya-share-this-page .gigyaraas { text-align: right; }
+
+.box-title-description.gigya-share-this-page .gigyaraas { text-align: right; position: absolute; clear: none; right: 0; top: auto; bottom: 10px; margin-top: 10px; }
+
+.box-all-contents.gigya-share-this-page .gigyaraas { text-align: right; }
+
+#gigya-subscribe-with-email-form .ciam-text-area textarea { height: 93px; background: #FFFFFF; resize: none; }
+
+#wrapper .gigya-raas .ciam-text-area textarea { height: 141px; background: #FFFFFF; overflow-y: scroll; resize: none; }
+
+#wrapper .ciam-generic.ciam-background #ciam-delete-account .gigya-profile-form .gigya-composite-control.gigya-composite-control-header { margin: 0 0 30px; }
+
+.header-snippet .gigya-overlay-loginmessage .gigya-loginmessage-accountactivated-event .component-content .richText-content p:first-child, .header-snippet .gigya-overlay-loginmessage .gigya-loginmessage-pendingvalidation-event .component-content .richText-content p:first-child, .header-snippet .gigya-overlay-loginmessage .gigya-loginmessage-pendingvalidationallowlogin-event .component-content .richText-content p:first-child { width: 100%; float: left; padding: 0px; margin-top: 0px; margin-bottom: 0px; }
+
+.header-snippet .gigya-overlay-loginmessage .gigya-loginmessage-accountactivated-event .component-content .richText-content p, .header-snippet .gigya-overlay-loginmessage .gigya-loginmessage-pendingvalidation-event .component-content .richText-content p, .header-snippet .gigya-overlay-loginmessage .gigya-loginmessage-pendingvalidationallowlogin-event .component-content .richText-content p { width: 96%; float: right; }
+
+.header-snippet .gigya-overlay-loginmessage .gigya-loginmessage-accountactivated-event .component-content > .richText-content p:first-child strong, .header-snippet .gigya-overlay-loginmessage .gigya-loginmessage-pendingvalidation-event .component-content > .richText-content p:first-child strong, .header-snippet .gigya-overlay-loginmessage .gigya-loginmessage-pendingvalidationallowlogin-event .component-content > .richText-content p:first-child strong { width: 100%; }
+
+.box-event-details .box-events-register .gigyaraas { display: none; }
+
+.box-event-details-new .box-events-register .eventDetails-eventUnRegister { width: 50%; }
+
+.box-event-details-new .box-events-register .eventDetails-eventUnRegister .eventDetails-unregister-message { width: 100%; }
+
+.box-event-details-new .box-events-register .eventDetails-eventUnRegister .eventDetails-eventUnRegister-button { width: auto; float: left; }
+
+#wrapper div.main .box-event-details .box-events-register .gigyaraas { position: relative; margin-top: -27%; right: 2%; width: 53%; border-left: 2px solid #fff; padding-left: 3%; padding-right: 7%; min-height: 220px; }
+
+#wrapper div.main .box-event-details .box-events-register .gigyaraas .gigya-screen.portrait { max-width: 400px; font-size: 15px; padding-left: 0px; padding-right: 0px; padding-top: 0px; }
+
+#wrapper div.main .box-event-details .box-events-register .gigyaraas input[type="text"]:disabled { background: none !important; border: 0px; width: auto !important; float: left; color: #fff !important; font-size: 15px !important; font-weight: bold; }
+
+#wrapper div.main .box-event-details .box-events-register .gigyaraas .gigya-layout-cell { min-width: 100%; }
+
+#wrapper div.main .box-event-details .box-events-register .gigyaraas .gigya-layout-row a.gigya-composite-control.gigya-composite-control-link { color: #fff !important; font-size: 15px !important; top: 5px; font-weight: bold; right: 50px; text-decoration: underline; width: 40% !important; position: relative; float: right; margin-top: -62px; }
+
+#wrapper div.main .box-event-details-new .box-events-register div.gigya-screen-content .gigya-screen input[type="text"], #wrapper div.main .box-event-details-new .box-events-register div.gigya-screen-content .gigya-screen input[type="password"] { width: 78%; }
+
+/* Share This page link hide in mobile view  */
+@media only screen and (max-width: 767px) { .gigya-share-this-page .gigya-raas-link { display: none; }
+  #wrapper div.main .box-event-details .box-events-register .gigyaraas { position: relative; margin-top: 0%; right: 0%; width: 100%; border-left: 0px solid #fff; padding-left: 4%; padding-right: 5%; }
+  .box-event-details-new .box-events-register .eventDetails-eventUnRegister { width: 100%; }
+  #wrapper div.main .box-event-details-new .gigyaraas .gigya-profile-form p { margin-bottom: 0px; font-size: 20px; margin-top: 10px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 800px) { #wrapper .gigya-latest-updates ul li { background-size: 14% 90%; padding-left: 35px; }
+  #wrapper .gigya-events.rte-bullets-registration ul li, #wrapper .gigya-resources.rte-bullets-registration ul li { background-size: 12% 100%; padding-left: 35px; }
+  #wrapper .box.component.section.grid_4.omega.odd.last.from-rhs-box.initialized { width: 30%; margin-left: 30px !important; }
+  #wrapper .registration-header-top { padding-bottom: 20px; } }
+
+.box-event-details-new .box-events-register .eventDetails-eventUnRegister .eventDetails-unregister-message p { width: 100%; }
+
+.box-events-register { z-index: 9; }
+
+#wrapper div.main .box-event-details .box-events-register .gigyaraas div.gigya-screen-content .gigya-screen input[type="checkbox"] + label:before, #wrapper div.main .box-event-details .box-events-register .gigyaraas div.gigya-screen-content .gigya-screen input[type="radio"] + label:before { content: ' '; display: inline-block; margin-top: 0px; padding: 6px; line-height: 12px; border: 1px solid #cac9c7; height: 25px; width: 25px; background: #fff; position: absolute; left: 0px; top: 4px; cursor: pointer; }
+
+#wrapper div.main .box-event-details .box-events-register .gigyaraas div.gigya-screen-content .gigya-screen input[type="checkbox"]:checked + label:before, #wrapper div.main .box-event-details .box-events-register .gigyaraas div.gigya-screen-content .gigya-screen input[type="radio"]:checked + label:before { content: url(../../img/tick.png); text-align: center; color: #15717d; }
+
+#wrapper div.main .box-event-details-new div.gigyaraas div.gigya-screen-content .gigya-screen .gigya-input-submit:hover, #wrapper div.main .box-event-details-new div.gigyaraas div.gigya-screen-content .gigya-screen .gigya-input-submit:focus { background: #15717d !important; border: 1px solid #15717d !important; color: #fff !important; }
+
+#wrapper div.main .box-event-details-new .gigyaraas .gigya-composite-control.gigya-composite-control-submit input { margin-top: 0px; }
+
+#wrapper div.main .box-event-details-new .gigyaraas .gigya-profile-form p { margin-bottom: 20px; }
+
+.box-event-details-new .gigyaraas .gigya-profile-form p { font-family: Arial; font-size: 24px; font-weight: bold; color: #ffffff; }
+
+.box-event-details-new .gigyaraas .gigya-label-text { font-size: 15px; font-weight: bold; color: #ffffff !important; }
+
+.box-event-details-new .gigyaraas .gigya-composite-control-checkbox .gigya-checkbox-text { font-family: Arial; font-size: 18px; font-weight: bold; color: #ffffff !important; margin-left: 0px; }
+
+.box-event-details-new .gigyaraas .gigya-composite-control.gigya-composite-control-submit input { background: #fff !important; color: #15717d !important; border: 1px solid #fff !important; }
+
+.page-header-information.position-change { position: relative; }
+
+#wrapper .overlay-container .eventdetails .eventDetailsInfo p span { font-family: arial; width: 100%; }
+
+.overlay-container .reference-event-sign-in .eventdetails .eventDetailsInfo .eventDetails-location-container .eventDetails-location.showEventLocation { background: url(../../img/location.png) no-repeat left center; padding: 1px 23px; width: 100%; color: #72635d; font-size: 14px; }
+
+.box-events-sign-in.overlay-container .reference-event-sign-in .eventdetails .eventDetails-category.showWebinarEvent p .eventDetails-eventWebinar { background: url(../../img/video-icon.png) no-repeat left center; padding: 1px 23px; width: 100%; color: #72635d; font-size: 14px; }
+
+#wrapper .event-header-mvf { background: #F0EFED; display: none; padding-top: 30px; padding-bottom: 0px; }
+
+#wrapper .event-header-mvf .eventdetails .eventDetailsInfo { max-width: 962px; margin: 0 auto; position: relative; }
+
+#wrapper .event-header-mvf h2.eventDetails-eventName { color: #15717d; position: relative; top: 46px; width: 82%; float: right; }
+
+#wrapper .event-header-mvf .eventDetails-eventDescription p { float: right; width: 73%; line-height: 2; top: -30px; position: relative; }
+
+#wrapper .event-header-mvf p.eventDetails-eventDate-container { position: relative; top: 4em; width: 82%; float: right; }
+
+#wrapper .event-header-mvf p.eventDetails-eventDate-container span.eventDetails-eventBeginDate { background: url(../../img/calendar-icon.png) no-repeat; padding-left: 23px; color: #72635d; }
+
+#wrapper .event-header-mvf p.eventDetails-eventDate-container span.eventDetails-eventEndDate { float: right; color: #72635d; }
+
+#wrapper .event-header-mvf .richText p { max-width: 962px; margin: 0 auto; color: #333333; font-weight: bold; font-size: 15px; line-height: 2.1; }
+
+#wrapper .event-header-mvf img.eventDetails-eventPhoto { float: left; width: 150px; top: -29px; position: relative; }
+
+#wrapper .event-header-mvf .eventDetails-category.showWebinarEvent { width: 82%; float: left; top: 20px; position: absolute; font-size: 16px; font-style: italic; color: #72635d; right: 0%; }
+
+#wrapper .event-header-mvf .eventDetails-zincCode { width: 81%; float: right; text-align: right; top: 30px; position: relative; }
+
+#wrapper .event-header-mvf .eventcontainer { margin-top: -20px; }
+
+/* This code is not part of HCP4.0 release. so commenting. This will merged and enabled in HCP 4.1  .box-header-links.registration-header-top.registration-test { display: none; } */
+#wrapper .event-header-mvf .eventDetails-eventDescription:after { border: solid rgba(255, 255, 255, 0); content: '\25c4'; height: 15px; left: 136px; position: relative; width: 0; top: 27px; z-index: 99; font-size: 17px; color: #f0efed; }
+
+.event-header-mvf .eventdetails { position: relative; }
+
+.event-header-mvf .eventDetails-zincCode p span { color: #72635d; }
+
+span.eventname-registered { padding-right: 13px; }
+
+#wrapper .gigya-loginmessage-event-already-registered p { width: 100%; }
+
+#wrapper .event-header-mvf .eventDetails-category.showWebinarEvent p .eventDetails-eventWebinar { top: 0px; position: relative; }
+
+.gigya-loginmessage-accountactivated-event img { position: relative; top: 6px; }
+
+@media only screen and (max-width: 767px) { #wrapper .event-header-mvf { padding-left: 10px; padding-right: 10px; }
+  #wrapper .event-header-mvf .eventdetails h2.eventDetails-eventName { top: 0; width: 100%; float: left; margin-top: 20px; }
+  #wrapper .event-header-mvf .eventdetails p.eventDetails-eventDate-container { top: 0; width: auto; float: left; }
+  #wrapper .event-header-mvf .eventdetails .eventDetails-eventDescription { margin: 0 auto; text-align: center; }
+  #wrapper .event-header-mvf .eventdetails img.eventDetails-eventPhoto { float: none; width: auto; top: 0; position: relative; margin-top: 40px; }
+  #wrapper .event-header-mvf .eventDetails-zincCode { width: 100%; float: left; text-align: left; top: 9px; position: relative; right: 0; }
+  #wrapper .event-header-mvf .eventDetails-category.showWebinarEvent { width: auto; float: left; top: 10px; left: 0%; } }
+
+.box-header-links .gigya-share-this-page .gigyaraas { border-left: 2px solid #D4D0CE; padding-left: 24px; position: absolute; top: 13%; }
+
+.box-header-empty.gigya-share-this-page .gigyaraas, .box-events-header.gigya-share-this-page .gigyaraas { text-align: right; position: absolute; clear: none; right: 0; top: auto; bottom: 10px; margin-top: 10px; }
+
+@media only screen and (max-device-width: 1024px) and (min-width: 768px) { .box-header-links .gigya-share-this-page .gigyaraas { padding-left: 10px; } }

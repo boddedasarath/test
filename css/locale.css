@@ -1,0 +1,276 @@
+/*.box-header-primary .rte-header-banner.richText{
+	margin-left:20px;
+}
+.header-snippet .box-header-primary .userbox-header.userBox.section {
+	width:25%;
+}*/
+
+.box-header-primary.has-cart .userbox-header {
+    width: 25%;
+}
+.header-snippet .box-header-primary.has-cart .rte-header-banner {
+    margin: 0px;
+}
+.box-header-primary.has-cart .hcpwebshop.cartItem {
+    display: block;
+    margin: 0px;
+    padding: 10px 0px 3px 21px;
+    width: 7%;
+}
+.hcp_portal_-_webshop_address .A_LNAME{
+    width:auto !important;
+}
+.wsform .hcp_portal_-_subscriptions_cr .wsform-item{
+	display:none;
+}
+
+.wsform #firstColumn .wsform-item{
+	display:block;
+}
+.page-gestion-preferences .rte-choose-channel
+{
+    display:none;
+}
+.page-gestion-preferences .rte-choose-preference
+{
+    display:none;
+}
+
+.box-order-empty-inner .rte-body-button p span.rte-green-button{
+	padding:10px;
+}
+.box-order-empty-inner .rte-body-button p span.rte-green-button:hover{
+	padding:5px;
+}
+#content .box-order-empty .box-order-empty-inner .rte-body-button p  {
+	margin-bottom: 10px;
+	margin-top: 25px;
+	padding:5px;
+}
+.box-order-empty-inner .rte-body-button p span.rte-green-button:hover{
+	padding:10px;
+	/*border: 2px solid #15717D;*/
+}
+#content .rte-body-link {
+	width: 25%;
+}
+.main .box.box-events-filter-container{
+    margin-top: -40px;
+}
+#wrapper #content .therapy-video .mejs-overlay.mejs-layer.mejs-overlay-play .mejs-overlay-button{
+	display:block;
+}
+/*.image-form-intro .component-content img, .box-all-contents .image img{
+	max-width:100%;
+}*/
+
+.box-order-empty.box .box-order-empty-inner .rte-body-button p:hover{
+	background-color: #FFF;
+	border: 2px solid #15717D;
+	padding: 5px;
+}
+.box-order-empty .box-order-empty-inner .rte-body-button p:hover span{
+	background:transparent;
+}
+.layout-homepage-fr .box-header-primary .userbox-header.userBox.section , .layout-left-sidebar-fr .box-header-primary .userbox-header.userBox.section {
+    width: 25% !important;
+}
+.layout-homepage-fr  .box-header-primary.has-cart .userbox-header.userBox .logged-in,
+.layout-left-sidebar-fr  .box-header-primary.has-cart .userbox-header.userBox .logged-in{
+	padding-right:28px;
+}
+.layout-homepage-fr  .box-header-primary.has-cart .hcpwebshop.cartItem, .layout-left-sidebar-fr   .box-header-primary.has-cart .hcpwebshop.cartItem{
+	position:absolute;
+	right:210px;
+}
+.box-overlay-register-confirmation .rte-show-more a, .box-overlay-register-cancellation .rte-show-more a{
+	padding: 10px 25px;
+	display: inline-block;
+	width: auto;
+
+}
+.box-overlay-register-confirmation .rte-show-more a, .box-overlay-register-cancellation.overlay-container .rte-show-more a.hover{
+	display: inline-block;
+	width: auto;
+	padding: 8px 25px;
+}
+.box-overlay-register-confirmation .rte-show-more a:hover, .box-overlay-register-cancellation .rte-show-more a:hover{
+	padding: 6px 23px 6px 23px;
+}
+/* HCP 3.2 | Events Filter Change - Starts
+	body .ui-datepicker {
+		left: 212.5px !important;
+	}
+
+@media only screen and (min-width: 768px) and (max-width: 960px){
+	body .ui-datepicker{
+		left:20.5px !important;
+	}
+}
+@media only screen and (min-width: 660px) and (max-width: 767px){
+	body .ui-datepicker {
+		left: 256.5px !important;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 359px){
+	body .ui-datepicker {
+		left: 20.5px !important;
+	}
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+	body .ui-datepicker {
+		left: 24.5px !important;
+	}
+}
+/* HCP 3.2 | Events Filter Change - Ends */
+/* HCP FR WO | Edit User name Continue Button - Starts */
+.rte-edit-username-continue{ /*p*/
+	background: #15717d none repeat scroll 0 0;
+    border-radius: 30px;
+    float: left;
+    margin-right: 15px;
+    padding: 8px 18px;
+}
+.rte-edit-username-continue:hover{
+	border:2px solid #15717d;
+	background:#FFFFFF;
+	padding: 6px 16px;
+}
+.rte-edit-username-continue:hover a{
+	color:#15717d;	
+}
+.rte-edit-username-continue a{ /*p*/
+	color:#FFFFFF !important;
+	text-decoration:none !important;
+}
+.rte-edit-username-continue a:hover{
+	color:#15717d !important;
+	text-decoration:none;
+}
+@media only screen and (max-width:767px){
+	.rte-edit-username-continue{
+		width:220px;
+	}
+
+	.rte-edit-username-continue a{
+		left: 78px;
+		position: relative;
+	}
+}
+/* HCP FR WO | Edit User name Continue Button - Ends */
+/* HCP FR CR | Email Preference Channel- Starts */
+.hcp_portal_-_subscriptions_cr .wsform-item{
+    display:none;
+}
+.hcp_portal_-_subscriptions_cr .fieldColumnWrapper .wsform-item{
+    display:block;
+}
+.rte-choose-channel,.rte-choose-preference{
+	border: 0px !important;
+    color: #ba1977;
+    font-family: arial;
+    font-style: normal;
+    margin-left: 0px;
+    background: url("../../img/error-message-icon.png");
+    background-position: 0px 13px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin: 20px 0;
+	/*background: rgba(0, 0, 0, 0) url("../../img/error-message-icon.png") no-repeat scroll 0 1px;*/
+}
+/*.page-gestion-preferences .rte-choose-channel,.page-gestion-preferences .rte-choose-preference{
+	padding-top: 0px !important;
+}
+*/
+#content .subscriptions_form .rte-choose-channel.richText p,
+#content .subscriptions_form .rte-choose-preference.richText p{
+	margin-top:0px ;
+}
+/* HCP FR CR | Email Preference Channel - Ends */
+@media only screen and (max-width:767px){
+	.header-snippet .box-header-primary .userbox-header.userBox.section{
+		width:100% !important;
+	}
+                
+    #header .rte-header-banner p a {
+		border-radius: 0;
+		/*left:10px;
+		margin: 0;
+		padding: 4px 0 4px 20px;*/
+    }
+                
+	.rte-form-header h1{
+		word-wrap: break-word;
+	}
+	.overlay-container .box-form .rte-green-button, .overlay-container .box-form span.rte-green-button:hover{
+		width:95%;
+		margin-bottom: 10px;
+	}
+	.box-basket-buttons .rte-body-button p:hover{
+		width:100%;
+	}
+
+}
+
+@media only screen and (max-width: 960px) and (min-width: 768px){
+	.main#header .box-header-primary .rte-header-banner{
+		width:auto;	
+	}
+	.layout-left-sidebar-fr .box-header-primary .userbox-header.userBox.section{
+	width:23% !important;
+	}
+	.main .box-header-primary .rte-header-site-group, .main .box-header-primary.has-cart .rte-header-site-group{
+		width:22%;	
+	}
+	.header-snippet .box-header-primary .userbox-header.userBox.section{
+		width:26%;	
+	}
+	#header .box-header-primary.has-cart .userbox-header.userBox .logged-in{
+		padding:0px 40px 0px 10px;
+	}
+	.box-header-primary .image-gsk-logo{
+		width:64px;
+	}
+	.box-header-primary .image-gsk-logo img{
+		margin-left:7px;
+	}
+	
+	.box-header-primary.has-cart .hcpwebshop.cartItem{
+		position: absolute;
+		right: 50px;
+		top: 52px;	
+	}
+	.box-header-primary .image-search-header{
+		margin-right:10px;	
+	}
+	#header .navigation-horizontal .navigation-branch .navigation-level1 > .navigation-item-title{
+		margin:13px 20px 0 0;	
+	}
+	.Adobe-Connect-Filter{
+		width:100% !important;
+	}
+	#content .addToBasket-order-history .itemOrderList .productDescription p:first-child{
+		width:64%;
+	}
+	/*.content-image-large .component-content{
+		width:100%;}*/
+	}
+	
+	/*Spacing issue*/
+	.rte-bracket-numbers{
+		padding-right: 0px !important;
+	}
+	/**/
+	/*underline fix*/
+	.navigation-left .navigation-item .navigation-item-title span:hover {
+    text-decoration: underline;
+	}
+	/*Hiding registration form fields in case for Javascript being disabled*/
+.wsform-form.hcp_portal_-_registration .wsform-item-C_PROF_CRED\+A_PROF_UID, .wsform-form.hcp_portal_-_registration .wsform-item-C_PROF_PINF\+A_PROF_SPECIALITY,.wsform-form.hcp_portal_-_registration .wsform-item-C_PROF_PINF\+A_PROF_IJSFAID,.wsform-form.hcp_portal_-_registration .wsform-item-C_PROF_PINF\+A_CNSNT_LANG,.wsform-form.hcp_portal_-_registration .wsform-item-C_PROF_PINF\+A_CRMID_MATCH{
+                display: none;
+}
+
+.rte-ui ul, .rte-ui ol{
+display: inline-block;
+    width: 50%;
+    }

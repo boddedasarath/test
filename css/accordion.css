@@ -1,0 +1,263 @@
+/* COLOR NAMES
+----------------------------------------- */
+/*theme colors*/
+/*hard-coded colors*/
+/* FUNCTIONAL COLORS
+----------------------------------------- */
+/*border colors*/
+/*text colors*/
+/*background colors*/
+/*gradient colors*/
+/* line 3, ../../sass/components/accordion.scss */
+.accordion-container {
+  border: solid 2px #323131;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 10, ../../sass/components/accordion.scss */
+.accordion-head {
+  display: block;
+  color: #323131;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  background-color: #e1e1e1;
+  padding: 13px 20px 13px 0px;
+  margin: 0;
+  color: #939191;
+  border-top: 2px solid black;
+  line-height: 18px;
+}
+
+/* line 19, ../../sass/components/accordion.scss */
+.accordion-slide:first-child .accordion-head {
+  border-top: 0;
+}
+
+/* line 23, ../../sass/components/accordion.scss */
+.accordion-title {
+  padding: 13px;
+  margin: 0;
+}
+
+/*
+.accordion-slide:last-child:not(.is-active) > .accordion-head,
+.accordion-slide:last-child > .accordion-content {
+    border-bottom: none;
+}*/
+/* line 34, ../../sass/components/accordion.scss */
+.accordion-content {
+  padding: 13px;
+}
+
+/* line 38, ../../sass/components/accordion.scss */
+.accordion-content-wrapper {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
+/* line 47, ../../sass/components/accordion.scss */
+.accordion-slide .accordion-head:hover {
+  background-color: #939191;
+  color: white;
+}
+/* line 52, ../../sass/components/accordion.scss */
+.accordion-slide.is-active > .accordion-head:hover {
+  background-color: #e1e1e1;
+}
+/* line 56, ../../sass/components/accordion.scss */
+.accordion-slide.is-active > .accordion-head {
+  color: black;
+}
+/* line 61, ../../sass/components/accordion.scss */
+.accordion-content-wrapper {
+  visibility: hidden;
+  height: 0;
+  position: relative;
+  top: -999999px;
+  left: -999999px;
+  overflow: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+/* line 73, ../../sass/components/accordion.scss */
+.accordion-slide.is-active > .accordion-content-wrapper {
+  visibility: visible;
+  position: relative;
+  top: auto;
+  left: auto;
+  height: auto;
+  overflow: auto;
+}
+/* line 82, ../../sass/components/accordion.scss */
+.accordion-slide.is-active:last-child > .accordion-content-wrapper {
+  border-bottom: none;
+}
+/* line 86, ../../sass/components/accordion.scss */
+.accordion-head {
+  background-image: url("../img/arrow-right.png");
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  background-position: 97% center;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+/* line 93, ../../sass/components/accordion.scss */
+.accordion-slide.is-active > .accordion-head {
+  cursor: default;
+  background-image: url("../img/arrow-down.png");
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  background-position: 97% center;
+}
+
+/*accodion styles 3.1.3*/
+
+.accordion-container{
+	border: none;
+}
+
+.accordion-slide:first-child .accordion-head {
+    border-top: 1px solid #f0efed;
+}
+
+.accordion-slide:last-child .accordion-head {
+    border-bottom: 1px solid #f0efed;
+}
+
+.accordion-slide .accordion-head:hover {
+  background-color: #fff;
+  color: white;
+}
+
+.accordion-head {
+  display: block;
+  color: #333333;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  background-color: #fff;
+  padding: 13px 28px 13px 0px;
+  margin: 0;
+  border-top: 1px solid #f0efed;
+  line-height: 18px;
+}
+
+.accordion-head a:hover{
+	color: #15717D;
+}
+
+.accordion-slide.is-active h3 {
+  background-color: #fff;
+}
+.accordion-slide.is-active h3 a {
+  color: #f36633;
+}
+
+.accordion-slide.is-active > .accordion-head:hover {
+	background-color: #fff;
+	color: #15717D;
+}
+
+.accordion-slide .accordion-head:hover a {
+	background-color: #fff;
+	color: #15717D;
+}
+
+
+.faq-acc-title{
+	margin-bottom: 0px;
+}
+
+.accordion-container{
+	/*width: 640px;*/
+  width: 100%;
+}
+
+.accordion-slide.is-active > .accordion-head{
+	padding-bottom: 13px;
+}
+
+.accordion-content{
+	 padding-bottom: 5px;
+     padding-top: 5px;
+}
+
+.accordion-content .richText p{
+	margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.accordion-head {
+  background-image: url("../img/closed_d.png");
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  background-position: 97% center;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.accordion-head:hover {
+  background-image: url("../img/closedhover_d.png");
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  background-position: 97% center;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.accordion-slide.is-active > .accordion-head{
+	background-image: url("../img/open_d.png");
+	background-position: 100% center;
+	background-repeat: no-repeat;
+	background-position: 97% center;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+.accordion-slide.is-active > .accordion-head:hover{
+	background-image: url("../img/openhover_d.png");
+	background-position: 100% center;
+	background-repeat: no-repeat;
+	background-position: 97% center;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px){
+	.accordion-container{
+		/*width: 285px;*/
+    width: 100%;
+	}	
+}
+@media only screen and (min-width: 361px) and (max-width: 414px){
+	.accordion-container{
+		/*width: 340px;*/
+    width: 100%;
+	}	
+}
+
+@media only screen and (min-width: 415px) and (max-width: 640px){
+	.accordion-container{
+		/*width: 570px;*/
+    width: 100%;
+	}	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 770px){
+	.accordion-container{
+		/*width: 558px;*/
+    width: 100%;
+	}	
+  .accordion-head {
+  
+  padding: 13px 25px 13px 0px;
+  line-height: 18px;
+}
+}
+
+/*END*/
